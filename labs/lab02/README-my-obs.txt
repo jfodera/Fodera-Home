@@ -2,6 +2,12 @@
 
 Lab 2 Notes 
 
+
+Summary: 
+
+This document is basically just little things I noticed/learned throughout this lab. I would say I took a lot away from it and was a much needed 
+experience. Provoked some good questions that I'm eager to get answered. 
+
 itws-1100-foderj = iit 
 deoploying code instructions on readme 
 using vs code for this lab, chrome dev in future 
@@ -12,7 +18,6 @@ Steps:
 Go through example code
 Make sure page validates
 get old resume
-make it exact like example and add something cool
 periodically validate 
 While going through take notes that you think are important (don't have to 
 write everything down.)
@@ -32,7 +37,7 @@ By default heading is bold
 Cannot have link or image inside of list element
 Each element has their own box
 no p1,p2,p3
-must set all elements of the box to zero through class selector, Margin is the one that has set defaults. Border is more for making visible borders 
+must set all elements of the box to zero through class selector, Margin is the one that has set defaults. Border is more for making visible borders, didn't need to explicitly declare border 
 in CSS
 Can remove bullets with lsit-style: none
 
@@ -44,14 +49,14 @@ should the CSS in file be consisten with the order of the body?
 What are the default contraints of a CSS box model on an element? 
 Why can't I add padding to a pragraph type? 'p1'
    must be just straight up p, with a class selector
-How do I make my elements closer to eachother, setting padding to zero just didn't work?
+   Could only add padding-right to 'p1' and nothing else, why? 
 white-space: nowrap;?
 
 
 
 
 
-WHy doesn't this work: 
+WHy doesn't this work (invalidated): 
 
 
 HTML: 
