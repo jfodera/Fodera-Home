@@ -1,51 +1,35 @@
-<!DOCTYPE html>>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-   <meta content="charset=UTF-8" />
-   <title>XHTML Template Example - Intro ITWS</title>
+   <!-- Was an error here, fixed -->
+   <meta charset="UTF-8" >
+   <title>Joseph Fodera Resume</title>
 
 
    <!-- This is where the infile CSS is  -->
-   <style type="text/css">
+   <style>
+
+
       html {
          width: 100%;
       }
 
+      /* Definitions for the body box model */
       body {
-         width: 95%;
+         width: 100%;
          font-family: Arial, Helvetica, sans-serif;
-         overflow: hidden;
+         overflow: scroll;
       }
 
-      h1 {
-         text-align: center;
-         margin: 0;
-         padding: 0;
-         font-variant: small-caps;
-
-      }
-
-      h2 {
-         float: left;
-         clear: left;
-         width: 150px;
-         margin: 20px 0 0 0;
-         padding: 0;
-         font-size: 1.2em;
-      }
-
-      .leader {
-         color: red;
-      }
-
-
+      /* Top Header Info*/
       #contactInfo {
          border-top: 2px solid #333;
          border-bottom: 2px solid #333;
          padding: 4px 0 4px 0;
          margin: 0;
          text-align: center;
+         /*whitespaces ignored*/
          white-space: nowrap;
       }
 
@@ -55,54 +39,316 @@
          margin: 0 0.25em 0 0.25em;
       }
 
-      #nameWrapper {
-         width: 100%;
+      h1 {
+         text-align: center;
+         margin: 0;
+         font-variant: small-caps;
+      }
+
+      h2 {
+         float: left;
+         clear: left;
+         width: 150px;
+         /* top, right, bottom, left */
+         margin: 20px 0 0 0;
+         padding: 0;
+         font-size: 1.2em;
+      }
+
+      /*profile*/
+      #abtMe{
+         padding-left: 150px;
+         font-size: 1.2em; 
+      }
+
+
+      /* Education */
+      h3{
+         font-size: 1.5em; 
+         padding: 18px 0 5px 150px;
+         margin: 0 0 0 0; 
+      }
+
+      /* Can only identify color of link through link identifier */
+      #rpilink{
+         color: red;
+      }
+
+      img {
+         width: 75px; 
          float: right;
-         clear: both;
+         padding: 0 20px 0 0;  
+      }
+   
+      .genBuls{
+         padding: 0 0 0 150px;
+          
+         margin: 0 0 0 0;
+         font-size: 1.2em; 
       }
 
-      #nm {
-         width: 30%;
+      /*bspa*/
+      h4{
+         font-size: 1.5em; 
+         padding: 20px 0 5px 147px;
+          
+         margin: 0 0 0 0;
       }
 
-      #ci {
-         width: 70%;
+
+      /* Experience definitions */
+      .nameLoc{
+         font-size: 1.5em;
+         padding-top: 19px;
+         padding: 19px 0 0 150px;
+          
+         margin: 0 0 0 0; 
+      }
+
+      .title{
+         float: left;
+         font-size: 1.2em;
+         padding: 5px 0 0 150px;
+          
+         margin: 0 0 0 0; 
+         font-weight: bold; 
+      }
+      .date{
          float: right;
-
+         font-size: 1.2em;
+         padding: 5px 25px 0 0;
+          
+         margin: 0 0 0 0; 
       }
+
+      .descrip{
+         padding: 35px 0 0 150px;
+          
+         margin: 0 0 0 0; 
+         font-size: 1.2em; 
+      }
+
+      .acomp{
+         padding: 5px 0 0 130px;
+          
+         margin: 0 0 0 0; 
+         font-size: 1.2em; 
+         font-style: italic
+      }
+
+      .acpDes{
+         padding: 5px 0 0 150px;
+          
+         margin: 0 0 0 0; 
+         font-size: 1.2em; 
+      }
+
+
    </style>
 </head>
 
 <body>
-   <h1><a href="http://rpi.edu">Pamela Evans</a></h1>
+   <!-- Sorry don't have a headshot yet and this is only pick of me online -->
+   <h1><a href="http://tinyurl.com/yc29xrvr" target="_blank">Joseph Fodera</a></h1>
    <ul id="contactInfo">
-      <li>145 Tahquitz Canyon</li>
-      <li>Palm Springs, California 92262</li>
-      <li>760-555-1212</li>
-      <li>support@resumeedge.com</li>
+      <li>3449 Galway Road</li>
+      <li>Ballston Spa, NY, 12020</li>
+      <li>518-948-4156</li>
+      <li>josephfodera25@gmail.com</li>
    </ul>
+
+   <!-- Remember, ID is unique! -->
    <h2>PROFILE</h2>
-   <ul id="jobs">
-      <li>TA, RPI</li>
-      <li>Another job</li>
+   <ul id="abtMe">
+      <li>2023 Rensselaer Polytechnic Institute Deans Honor List</li>
+      <li>9 Season Varsity Letter Award Winner at Ballston Spa High School </li>
+      <li>2023 Ballston Spa Athletic Leadership and Perseverance Award Winner</li>
+      <li>NYS 2023 Triple C Award Recipient </li>
+      <li>Fluent in English and Technically proficient in Python, C++, Excel, Powerpoint, JavaScript</li>
    </ul>
 
    <div>
       <h2>EDUCATION</h2>
-      <ul>
-         <li></li>
+      
+      <img src="https://ih1.redbubble.net/image.1250027530.1339/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="RPI Puckman">
+      <h3>
+         <a id="rpilink" href="https://www.rpi.edu" target="_blank">
+            Rensselear Polytechnic Institute (2023 - Present)   
+         </a> 
+      </h3>
+      <ul class="genBuls" >
+            <li>
+               Current Freshman at Rensselaer Polytechnic Institute pursuing a Dual Major 
+               consisting of Computer Science along with Information Technology Web Sciences.
+            </li>
       </ul>
+
+      <img src="https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/11814/20220909215004_263_mascot300Near.png" alt="Bspa Scottie">
+      <h4>
+         <a id="bspalink" href="https://www.bscsd.org" target="_blank">
+            Ballston Spa High School (2019-2023)  
+         </a> 
+      </h4>
+      <ul class="genBuls" >
+            <li>
+               Graduated from Ballston Spa High School in 2023, finishing 10th in a class of 280, maintaining a rigourous courseload. 
+            </li>
+      </ul>
+
    </div>
 
-   <div id="nameWrapper">
-      <div id="nm">
-         <p>Fname</p>
-         <p>Lname</p>
-      </div>
-      <div id="ci">
-         contact info
-      </div>
+
+
+   <div id="exp">
+      <h2>EXPERIENCE</h2>
+
+         <p class= "nameLoc">
+            <b>
+               DOCK BROWNS TAVERN,
+            </b>
+             Saratoga Lake, NY
+         </p>
+         
+         <p class= "title">Waiter</p>
+         <p class= "date">4/23 - 9/23</p>
+         
+         <ul class="descrip">
+            <li>
+               Waited on diners at Dock Browns Tavern
+                throughout the summer months. Worked in unison with kitchen staff, bussers, bartenders
+                and managers to produce as efficient of an environment as possible. 
+            </li>
+         </ul>
+
+         <p class= "acomp">Accomplishment:</p>
+
+         <ul class="acpDes">
+            <li>
+               Good relationships and connections made. Learned how to
+               advocate for myself in a work environment.
+               Gained a lot from valueable customer interactions while also increasing the efficiency of the restuarant through busy months. 
+            </li>
+         </ul>
+
+
+
+
+
+
+         <p class= "nameLoc">
+            <b>
+               DOCK BROWNS TAVERN,
+            </b>
+             Saratoga Lake, NY
+         </p>
+         
+         <p class= "title">Busser</p>
+         <p class= "date">5/21 - 9/22</p>
+         
+         <ul class="descrip">
+            <li>
+               Bussed Tables at Dock Browns Tavern
+               throughout the summer months. Worked in unison with kitchen staff, bussers, bartenders
+               and managers to produce as efficient of an environment as possible. 
+            </li>
+         </ul>
+
+         <p class= "acomp">Accomplishment:</p>
+
+         <ul class="acpDes">
+            <li>
+               Gained an appreciation for all of the little things that go into making a restuarant move smoothly and figured out some ways to 
+               improve the flow of the restaurant, through bussing
+            </li>
+         </ul>
+
+
+
+         
+         <p class= "nameLoc">
+            <b>
+               LAWN MOWING BUISNESS,
+            </b>
+            Ballston Spa, NY
+         </p>
+         
+         <p class= "title">Mower</p>
+         <p class= "date">5/19 - 9/23</p>
+         
+         <ul class="descrip">
+            <li>
+               Took care of lawnkeeping for 4-5 houses weekly for every summer in this time range. 
+            </li>
+         </ul>
+
+         <p class= "acomp">Accomplishment:</p>
+
+         <ul class="acpDes">
+            <li>
+               Learned good scheduling strategies, and very basic ways of advertising. 
+            </li>
+         </ul>
+
+
+
+         <p class= "nameLoc">
+            <b>
+               BALLSTON SPA HIGH SCHOOL VARSITY CROSS COUNTRY,
+            </b>
+            Ballston Spa, NY
+         </p>
+         
+         <p class= "title">Captain</p>
+         <p class= "date">5/21 - 5/23</p>
+         
+         <ul class="descrip">
+            <li>
+               Was the captian of my high school cross country team for the end of my sophmore year, junior, and senior years. Was responsible for keeping
+         the guys motivated and locked into our goals every day. A great leadership opportunity for me 
+            </li>
+         </ul>
+
+         <p class= "acomp">Accomplishment:</p>
+
+         <ul class="acpDes">
+            <li>
+               Learned a lot about how to lead/motivate people and this lead to our entire Varsity team setting induvidual PR's my junior year at championships
+               which is no easy feat. 
+            </li>
+         </ul>
+
+
+
+
+         <p class= "nameLoc">
+            <b>
+               GORDON CREEK ELEMENTARY SCHOOL,
+            </b>
+            Ballston Spa, NY
+         </p>
+         
+         <p class= "title">Volunteer Coach</p>
+         <p class= "date">7/22 - 7/22</p>
+         
+         <ul class="descrip">
+            <li>
+               Volunteered to Coach a basketball camp in my hometown for a week over my junior Summer. Worked with grades K-5 to develop some 
+               fundamental skills and have some fun. The coaches were responsible for taking care of the kids and keeping them in check throughout the day
+            </li>
+         </ul>
+
+         <p class= "acomp">Accomplishment:</p>
+
+         <ul class="acpDes">
+            <li>
+               Ran a smooth camp and lots of kids had a great time. Learned some skills in working with kids 
+               which I had never done before and a very positive experience overall.
+            </li>
+         </ul>
+
+
    </div>
+
 
 
 </body>
