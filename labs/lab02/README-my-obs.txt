@@ -46,11 +46,18 @@ Cannot define 2 different elements in CSS
 
 Q's:
 should the CSS in file be consisten with the order of the body?
+ don't really have to
+
 What are the default contraints of a CSS box model on an element? 
+   Yes there are, can check what they set to through chrome devtools inspect, or just set all to zero and go from there. 
+
 Why can't I add padding to a pragraph type? 'p1'
-   must be just straight up p, with a class selector
+   must be just straight up p, with a class selector, or id
    Could only add padding-right to 'p1' and nothing else, why? 
-white-space: nowrap;?
+   p1, p2 are not valid tags
+
+white-space: nowrap; 
+   whitespace is preserved when read by browser 
 
 
 
@@ -61,6 +68,9 @@ WHy doesn't this work (invalidated):
 
 HTML: 
 
+if change to id/class should work, can't do p2, p3, those tags do not exist 
+
+<p class="someClass"> 
 <div class="title-date">
          <p2>Waiter</p2>
          <p3>4/23 - 9/23</p3>
@@ -69,7 +79,7 @@ HTML:
 
 Css: 
 
- .title-date{
+.title-date{
          padding-bottom: 10px;
          font-size: 1.3em;
 }
