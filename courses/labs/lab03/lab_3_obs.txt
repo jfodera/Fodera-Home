@@ -1,0 +1,30 @@
+Before submitting: 
+   upload my practice diagrams to lab3 folder
+   Copy this whole text to the readme.md file in the root directory
+
+Plan: 
+
+pages: 
+   original inde.html file in iit is my landing page, how I navigate this whole iit Folder 
+   projects.html folder-> main page to intrioduce your labs, put it in your lab folder
+      must have links to labs, and have a landing page for each lab
+
+page makeup: 
+   consistent header, menu, content area, and footer across pages 
+   Rememeber Title tag!
+
+make seperate css files (external file sheet) 
+
+Flexbox: mabye use: 
+https://www.w3schools.com/css/css3_flexbox.asp
+slide: 29
+
+Linking external File Sheets: 
+https://www.w3schools.com/css/css_howto.asp
+
+Conventions: 
+
+filesheets have same name as html they are used for, just different extension
+
+Questions: 
+Are the # of files in my root good? 
