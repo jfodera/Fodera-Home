@@ -13,18 +13,35 @@ page makeup:
    consistent header, menu, content area, and footer across pages 
    Rememeber Title tag!
 
-make seperate css files (external file sheet) 
-
-Flexbox: mabye use: 
-https://www.w3schools.com/css/css3_flexbox.asp
-slide: 29
-
-Linking external File Sheets: 
-https://www.w3schools.com/css/css_howto.asp
 
 Conventions: 
 
 filesheets have same name as html they are used for, just different extension
 
+Use rel URL's for importing CSS, server relative for actual link
+
 Questions: 
 Are the # of files in my root good? 
+
+
+Things I learned: 
+
+make seperate css files (external file sheet) 
+
+
+Linking external File Sheets: 
+https://www.w3schools.com/css/css_howto.asp
+
+
+Flexbox: mabye use: 
+https://www.w3schools.com/css/css3_flexbox.asp
+slide: 29
+
+<em> </em> makes things itallic
+
+'rel' attribute tells html how to interact with link 
+
+
+Future Updates: 
+
+Add breadcrums 
