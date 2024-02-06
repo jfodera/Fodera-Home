@@ -1,3 +1,122 @@
-#tester{
-   font-size: 1.2em; 
+
+/*constant thoughout all pages- (will make more serious, just having fun for right now)8?
+
+/* Definitions for the body box model, whole thing */
+body {
+   width: 100%;
+   overflow: scroll;
+   background-image: url('Red-Black.jpg'); 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover; 
+
+}
+
+h1{
+   font-family:  'Crimson Text', serif; 
+   font-size: 4.5em; 
+   margin: -15px 0 0 0; 
+   padding: 0 0 0 0;
+   text-align: center; 
+   
+}
+
+/* Image from Deviant Art: https://www.deviantart.com/smykoleg/art/Running-Test-My-First-Animated-GIF-608350295 */
+hr{
+   height: 30px; 
+   background-color: white;
+   border-color: black;
+   margin-left: -20px;
+   margin-top: 0;  
+   background: url(runner.gif);
+   
+}
+
+
+/*page specific*/
+
+/*Into */
+h2{
+   margin-top: 0;
+   margin-bottom: 0;
+   float: center;
+}
+
+#abtText{
+   margin: 10px 0 0 0; 
+}
+
+
+#abt{
+   position: absolute;
+   left: 30%;
+   padding-left: 1px;
+   text-align: center;
+   width: 600px;
+   height: 206px; 
+   font-size: 1.2em;
+}
+
+#intro{
+   padding-top: 10px;
+   height: 250px
+}
+
+#gradPic{
+   margin-top: 15px;
+   margin-left: 10px; 
+   float: left; 
+   border: 3px solid #000;
+}
+
+
+
+#runPic{
+   margin-top: 15px;
+
+   margin-right: 25px; 
+   float: right;
+   border: 3px solid #000;
+}
+
+/*Navigation*/ 
+
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   /* Perfectly center's the items */
+   justify-content: center;
+   align-items: center;
+   padding-top: 130px;
+   font-size: 4em;
+   text-align: center;
+ }
+
+ 
+#courses{
+   /*keep with running margin-left*/
+   /* margin-right: 35%; */
+   width: 28.3%; 
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   margin-bottom: 5%;
+   height: 550px;
+}
+
+#projects{
+   width: 28.3%; 
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   margin-bottom: 5%;
+   height: 550px;
+}
+
+#running{
+   width: 28.3% ;
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   margin-bottom: 5%;
+   border: 3px solid #5678;
+   height: 550px; 
 }

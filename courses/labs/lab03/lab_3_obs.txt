@@ -4,6 +4,8 @@ Before submitting:
 
 Plan: 
 
+Navbar for website/breadcrums? 
+
 pages: 
    original inde.html file in iit is my landing page, how I navigate this whole iit Folder 
    projects.html folder-> main page to intrioduce your labs, put it in your lab folder
@@ -26,8 +28,12 @@ Are the # of files in my root good?
 
 Things I learned: 
 
-make seperate css files (external file sheet) 
+Do widths in percentages to resize with windo 
 
+make seperate css files (external file sheet): 
+   Thinks about good organization, don't replicate 
+
+Wrap means to be able to move to next line when screen minimizes 
 
 Linking external File Sheets: 
 https://www.w3schools.com/css/css_howto.asp
@@ -41,7 +47,13 @@ slide: 29
 
 'rel' attribute tells html how to interact with link 
 
+can make -margin 
+   for built in outer margin
+
 
 Future Updates: 
+
+make a better header
+Make abt section alignment dependant on the width 
 
 Add breadcrums 
