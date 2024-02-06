@@ -92,31 +92,21 @@ h2{
    margin: 0 0 0 0;
    text-align: center;
    height:25px;
+   color: yellow;
 }
 
 /* Terminal emoji from: https://www.akashtrehan.com/printing-emojis-on-terminal/ */
 /* All images should be 75x75 */
  #lab1{
-   height: 150px;
-   width: 100%;
+   display: block;
+   padding-left: 50%;
+   padding-right: 50%;
+   padding-bottom: 150px;
    background: url('terminal.png');
    background-position:center;
    background-repeat:no-repeat;     
-   color: black;
    background-color: red; 
  }
-
- /* Breifcase Emoji from: https://iconduck.com/emojis/98019/briefcase */
- #lab2{
-   height: 150px;
-   width: 100%;
-   background: url('breifcase.png');
-   background-position:center;
-   background-repeat:no-repeat;     
-   color: black;
-   background-color: red; 
- }
-
 
  #lab1:hover{
    background-color: yellow;
@@ -127,43 +117,62 @@ h2{
    color: white;
  }
 
- .rest{
-   height: 150px;
-   width: 100%;
+
+ /* Breifcase Emoji from: https://iconduck.com/emojis/98019/briefcase */
+ #lab2{
+   display: block;
+   padding-left: 50%;
+   padding-right: 50%;
+   padding-bottom: 150px;
+   background: url('breifcase.png');
    background-position:center;
    background-repeat:no-repeat;     
-   color: black;
    background-color: red; 
  }
 
- .rest:hover{
+ #lab2:hover{
+   background-color: yellow;
+   color: white;
+ }
+ #lab2:hover{
    background-color: yellow;
    color: white;
  }
 
+/* Questionmark png from: https://www.cleanpng.com/png-question-mark-computer-icons-exclamation-mark-emoj-7101876/download-png.html */
+ .rest{
+   display: block;
+   padding-left: 50%;
+   padding-right: 50%;
+   padding-bottom: 150px;
+   background: url('ques.png');
+   background-position: center;
+   background-repeat:no-repeat;     
+   background-color: red; 
+ }
+
+
+
  #finProj{
    align-items: center;
- 
    width: 100%;
    height: 400px; 
    margin-top: 85px;
  }
 
  .fin{
-   height: 250px;
-   width: 25%;
-   margin-left: 37.5%; 
-   margin-right: 37.5%; 
-   background-position:center;
+   padding-bottom: 250px;
+   padding-left: 12.5%;
+   padding-right: 12.5%; 
+   margin-left: 37.5%;
+   margin-right: 37.5%;
+   background: url('ques.png');
+   background-position: center;
    background-repeat:no-repeat;     
    color: black;
    background-color: red; 
  }
 
- .fin:hover{
-   background-color: yellow;
-   color: white;
- }
 
 
 
@@ -183,13 +192,14 @@ footer {
 
  .contact{
    text-align: right; 
-   margin: 0 0 0 0; 
+   margin: 0 15px 0 0; 
    font-style: italic;
+   font-size: 1.2em;
 
  }
 
  .updates{
    margin: 0 0 0 0; 
-   font-size: 1.3em;
+   font-size: 1.2em;
 
  }
