@@ -43,20 +43,46 @@ footer {
    color: white;
  }
 
- #contact{
+ .contact{
    text-align: right; 
    margin: 0 0 0 0; 
    font-style: italic;
 
  }
 
- #updates{
+ .updates{
    margin: 0 0 0 0; 
    font-size: 1.3em;
 
  }
 
 /*page specific*/
+
+/*breadcrums*/
+.bread{
+   text-align: center; 
+   margin: 0 0 0 0; 
+   font-size: 2.0em;
+   font-family: 'Crimson Text', serif;
+   font-style: italic;
+   text-decoration: underline;
+}
+.bread:link{
+   color: black; 
+}
+
+.bread:visited{
+   color: rgb(82, 8, 107); 
+}
+
+.bread:hover{
+   color: blue;
+}
+
+#centPBread{
+   margin: 0 0 0 0;
+   text-align: center;
+}
 
 /*Intro */
 h2{
@@ -159,7 +185,7 @@ h3{
    margin: 0 0 0 0;
 }
 
-#tabs{
+.tabs{
    height: 5px; 
    background-color: white;
    margin-top: 0;  

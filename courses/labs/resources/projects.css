@@ -2,7 +2,7 @@
 body {
    width: 100%;
    overflow: scroll;
-   background-image: url('Red-Black.jpg'); 
+   background-image: url('blueBack.avif'); 
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover; 
@@ -28,6 +28,35 @@ h1{
    background: url(runner.gif);
 }
 
+/*Page Specific*/ 
+
+
+/*breadcrums*/
+.bread{
+   text-align: center; 
+   margin: 0 0 0 0; 
+   text-decoration: underline;
+
+}
+.bread:link{
+   color: black; 
+}
+
+.bread:visited{
+   color: rgb(82, 8, 107); 
+}
+
+.bread:hover{
+   color: blue;
+}
+
+#centPBread{
+   margin: 0 0 0 0;
+   text-align: center;
+   font-size: 2.0em;
+   font-family: 'Crimson Text', serif;
+   font-style: italic;
+}
 
 /*Footer*/ 
 
@@ -41,14 +70,14 @@ footer {
    color: white;
  }
 
- #contact{
+ .contact{
    text-align: right; 
    margin: 0 0 0 0; 
    font-style: italic;
 
  }
 
- #updates{
+ .updates{
    margin: 0 0 0 0; 
    font-size: 1.3em;
 
