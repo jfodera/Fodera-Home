@@ -1,5 +1,7 @@
 Lab 3 notes: 
 
+Working URL: http://foderjrpi.eastus.cloudapp.azure.com/iit/
+
 Summary: Really learned a lot from this one, major takeaway was flexbox. Also found it better to not set fixed width for divs, instead make them 
 relative to page size. Lots of comments below that I organized. Really excited to expand this out more 
 
