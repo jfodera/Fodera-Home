@@ -31,10 +31,34 @@ h1{
    background: url(runner.gif);
 }
 
+/*Footer*/ 
+
+footer {
+   text-align: center;
+   padding: 45px;
+   margin-bottom: -25px;
+   background-color: rgba(150, 108, 108, 0.251);
+   border-top: 10px; 
+   border-top-color: aqua;
+   color: white;
+ }
+
+ #contact{
+   text-align: right; 
+   margin: 0 0 0 0; 
+   font-style: italic;
+
+ }
+
+ #updates{
+   margin: 0 0 0 0; 
+   font-size: 1.3em;
+
+ }
 
 /*page specific*/
 
-/*Into */
+/*Intro */
 h2{
    margin-top: 0;
    margin-bottom: 0;
@@ -163,3 +187,4 @@ a:hover{
 li{
    margin: 15px 0 0 0; 
 }
+

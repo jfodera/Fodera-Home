@@ -1,0 +1,55 @@
+/* Definitions for the body box model, whole thing */
+body {
+   width: 100%;
+   overflow: scroll;
+   background-image: url('Red-Black.jpg'); 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover; 
+
+}
+
+h1{
+   font-family:  'Crimson Text', serif; 
+   font-size: 4.5em; 
+   margin: -15px 0 0 0; 
+   padding: 0 0 0 0;
+   text-align: center; 
+   
+}
+
+/* Image from Deviant Art: https://www.deviantart.com/smykoleg/art/Running-Test-My-First-Animated-GIF-608350295 */
+#top{
+   height: 30px; 
+   background-color: white;
+   border-color: black;
+   margin-left: -20px;
+   margin-top: 0;  
+   background: url(runner.gif);
+}
+
+
+/*Footer*/ 
+
+footer {
+   text-align: center;
+   padding: 45px;
+   margin-bottom: -25px;
+   background-color: rgba(150, 108, 108, 0.251);
+   border-top: 10px; 
+   border-top-color: aqua;
+   color: white;
+ }
+
+ #contact{
+   text-align: right; 
+   margin: 0 0 0 0; 
+   font-style: italic;
+
+ }
+
+ #updates{
+   margin: 0 0 0 0; 
+   font-size: 1.3em;
+
+ }
