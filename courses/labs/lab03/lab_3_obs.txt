@@ -1,6 +1,7 @@
 Before submitting: 
    upload my practice diagrams to lab3 folder
    Copy this whole text to the readme.md file in the root directory
+   Create -> page under construction links
 
 Plan: 
 

@@ -22,14 +22,13 @@ h1{
 }
 
 /* Image from Deviant Art: https://www.deviantart.com/smykoleg/art/Running-Test-My-First-Animated-GIF-608350295 */
-hr{
+#top{
    height: 30px; 
    background-color: white;
    border-color: black;
    margin-left: -20px;
    margin-top: 0;  
    background: url(runner.gif);
-   
 }
 
 
@@ -89,7 +88,6 @@ h2{
    justify-content: center;
    align-items: center;
    padding-top: 130px;
-   font-size: 4em;
    text-align: center;
  }
 
@@ -101,7 +99,8 @@ h2{
    margin-left: 2.5%;
    margin-right: 2.5%;
    margin-bottom: 5%;
-   height: 550px;
+   border: 5px solid rgb(255, 255, 255);
+   height: 650px;
 }
 
 #projects{
@@ -109,7 +108,8 @@ h2{
    margin-left: 2.5%;
    margin-right: 2.5%;
    margin-bottom: 5%;
-   height: 550px;
+   border: 5px solid rgb(255, 255, 255);
+   height: 650px;
 }
 
 #running{
@@ -117,6 +117,49 @@ h2{
    margin-left: 2.5%;
    margin-right: 2.5%;
    margin-bottom: 5%;
-   border: 3px solid #5678;
-   height: 550px; 
+   border: 5px solid rgb(255, 255, 255);
+   height: 650px; 
+}
+
+h3{
+   font-size: 3.5em;
+   color: white; 
+   margin: 0 0 0 0; 
+   font-style: italic; 
+   text-decoration: underline; 
+}
+
+.desc{
+   font-size: 1.2em;
+   color: white; 
+   margin: 0 0 0 0;
+}
+
+#tabs{
+   height: 5px; 
+   background-color: white;
+   margin-top: 0;  
+   border-color: white;
+}
+
+.tabBuls{
+   color: white;
+   text-align: left; 
+   font-size: 2.1em; 
+   margin: 5px 0 0 0; 
+}
+
+a:link{
+   color: cyan; 
+}
+
+a:visited{
+   color: mediumpurple; 
+}
+
+a:hover{
+   color: orange;
+}
+li{
+   margin: 15px 0 0 0; 
 }
