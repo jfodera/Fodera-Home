@@ -1,0 +1,195 @@
+/* Definitions for the body box model, whole thing */
+body {
+   width: 100%;
+   overflow: scroll;
+   background-image: url('blueBack.avif'); 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover; 
+
+}
+
+h1{
+   font-family:  'Crimson Text', serif; 
+   font-size: 4.5em; 
+   margin: -15px 0 0 0; 
+   padding: 0 0 0 0;
+   text-align: center; 
+   
+}
+
+/* Image from Deviant Art: https://www.deviantart.com/smykoleg/art/Running-Test-My-First-Animated-GIF-608350295 */
+#top{
+   height: 30px; 
+   background-color: white;
+   border-color: black;
+   margin-left: -20px;
+   margin-top: 0;  
+   background: url(runner.gif);
+}
+
+/*Page Specific*/ 
+
+
+/*breadcrums*/
+.bread{
+   text-align: center; 
+   margin: 0 0 0 0; 
+   text-decoration: underline;
+
+}
+.bread:link{
+   color: black; 
+}
+
+.bread:visited{
+   color: rgb(82, 8, 107); 
+}
+
+.bread:hover{
+   color: blue;
+}
+
+#centPBread{
+   margin: 0 0 0 0;
+   text-align: center;
+   font-size: 2.0em;
+   font-family: 'Crimson Text', serif;
+   font-style: italic;
+}
+
+
+/* Buttons */
+
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   /* Perfectly center's the items */
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+ }
+
+ #topRow{
+   padding-top: 100px;
+ }
+
+ #bottomRow{
+   padding-top: 150px;
+ }
+
+.butText{
+   width: 12%;
+   margin-left: 3%;
+   margin-right: 3%;
+   height: 175px;
+
+}
+
+h2{
+   margin: 0 0 0 0;
+   text-align: center;
+   height:25px;
+}
+
+/* Terminal emoji from: https://www.akashtrehan.com/printing-emojis-on-terminal/ */
+/* All images should be 75x75 */
+ #lab1{
+   height: 150px;
+   width: 100%;
+   background: url('terminal.png');
+   background-position:center;
+   background-repeat:no-repeat;     
+   color: black;
+   background-color: red; 
+ }
+
+ /* Breifcase Emoji from: https://iconduck.com/emojis/98019/briefcase */
+ #lab2{
+   height: 150px;
+   width: 100%;
+   background: url('breifcase.png');
+   background-position:center;
+   background-repeat:no-repeat;     
+   color: black;
+   background-color: red; 
+ }
+
+
+ #lab1:hover{
+   background-color: yellow;
+   color: white;
+ }
+ #lab2:hover{
+   background-color: yellow;
+   color: white;
+ }
+
+ .rest{
+   height: 150px;
+   width: 100%;
+   background-position:center;
+   background-repeat:no-repeat;     
+   color: black;
+   background-color: red; 
+ }
+
+ .rest:hover{
+   background-color: yellow;
+   color: white;
+ }
+
+ #finProj{
+   align-items: center;
+ 
+   width: 100%;
+   height: 400px; 
+   margin-top: 85px;
+ }
+
+ .fin{
+   height: 250px;
+   width: 25%;
+   margin-left: 37.5%; 
+   margin-right: 37.5%; 
+   background-position:center;
+   background-repeat:no-repeat;     
+   color: black;
+   background-color: red; 
+ }
+
+ .fin:hover{
+   background-color: yellow;
+   color: white;
+ }
+
+
+
+
+/*Footer*/ 
+
+footer {
+   text-align: center;
+   margin-top: 45px;
+   margin-bottom: -25px;
+   margin-left: -15px;
+   background-color: rgba(227, 242, 18, 0.877);
+   border-top: 10px; 
+   border-top-color: aqua;
+   color: rgb(12, 151, 237);
+ }
+
+ .contact{
+   text-align: right; 
+   margin: 0 0 0 0; 
+   font-style: italic;
+
+ }
+
+ .updates{
+   margin: 0 0 0 0; 
+   font-size: 1.3em;
+
+ }

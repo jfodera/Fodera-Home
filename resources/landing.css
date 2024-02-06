@@ -1,0 +1,217 @@
+
+/*constant thoughout all pages- (will make more serious, just having fun for right now)8?
+
+/* Definitions for the body box model, whole thing */
+body {
+   width: 100%;
+   overflow: scroll;
+   background-image: url('Red-Black.jpg'); 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover; 
+
+}
+
+h1{
+   font-family:  'Crimson Text', serif; 
+   font-size: 4.5em; 
+   margin: -15px 0 0 0; 
+   padding: 0 0 0 0;
+   text-align: center; 
+   
+}
+
+/* Image from Deviant Art: https://www.deviantart.com/smykoleg/art/Running-Test-My-First-Animated-GIF-608350295 */
+#top{
+   height: 30px; 
+   background-color: white;
+   border-color: black;
+   margin-left: -20px;
+   margin-top: 0;  
+   background: url(runner.gif);
+}
+
+/*Footer*/ 
+
+footer {
+   text-align: center;
+   padding: 45px;
+   margin-bottom: -25px;
+   margin-left: -15px;
+   background-color: rgba(150, 108, 108, 0.251);
+   border-top: 10px; 
+   border-top-color: aqua;
+   color: white;
+ }
+
+ .contact{
+   text-align: right; 
+   margin: 0 0 0 0; 
+   font-style: italic;
+
+ }
+
+ .updates{
+   margin: 0 0 0 0; 
+   font-size: 1.3em;
+
+ }
+
+/*page specific*/
+
+/*breadcrums*/
+.bread{
+   text-align: center; 
+   margin: 0 0 0 0; 
+   font-size: 2.0em;
+   font-family: 'Crimson Text', serif;
+   font-style: italic;
+   text-decoration: underline;
+}
+.bread:link{
+   color: black; 
+}
+
+.bread:visited{
+   color: rgb(82, 8, 107); 
+}
+
+.bread:hover{
+   color: blue;
+}
+
+#centPBread{
+   margin: 0 0 0 0;
+   text-align: center;
+}
+
+/*Intro */
+h2{
+   margin-top: 0;
+   margin-bottom: 0;
+   float: center;
+}
+
+#abtText{
+   margin: 10px 0 0 0; 
+}
+
+
+#abt{
+   position: absolute;
+   left: 30%;
+   padding-left: 1px;
+   text-align: center;
+   width: 600px;
+   height: 206px; 
+   font-size: 1.2em;
+}
+
+#intro{
+   padding-top: 10px;
+   height: 250px
+}
+
+#gradPic{
+   margin-top: 15px;
+   margin-left: 10px; 
+   float: left; 
+   border: 3px solid #000;
+}
+
+
+
+#runPic{
+   margin-top: 15px;
+
+   margin-right: 25px; 
+   float: right;
+   border: 3px solid #000;
+}
+
+/*Navigation*/ 
+
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   /* Perfectly center's the items */
+   justify-content: center;
+   align-items: center;
+   padding-top: 130px;
+   text-align: center;
+ }
+
+ 
+#courses{
+   /*keep with running margin-left*/
+   /* margin-right: 35%; */
+   width: 28.3%; 
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   margin-bottom: 5%;
+   border: 5px solid rgb(255, 255, 255);
+   height: 650px;
+}
+
+#projects{
+   width: 28.3%; 
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   margin-bottom: 5%;
+   border: 5px solid rgb(255, 255, 255);
+   height: 650px;
+}
+
+#running{
+   width: 28.3% ;
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   margin-bottom: 5%;
+   border: 5px solid rgb(255, 255, 255);
+   height: 650px; 
+}
+
+h3{
+   font-size: 3.5em;
+   color: white; 
+   margin: 0 0 0 0; 
+   font-style: italic; 
+   text-decoration: underline; 
+}
+
+.desc{
+   font-size: 1.2em;
+   color: white; 
+   margin: 0 0 0 0;
+}
+
+.tabs{
+   height: 5px; 
+   background-color: white;
+   margin-top: 0;  
+   border-color: white;
+}
+
+.tabBuls{
+   color: white;
+   text-align: left; 
+   font-size: 2.1em; 
+   margin: 5px 0 0 0; 
+}
+
+a:link{
+   color: cyan; 
+}
+
+a:visited{
+   color: mediumpurple; 
+}
+
+a:hover{
+   color: orange;
+}
+li{
+   margin: 15px 0 0 0; 
+}
+
