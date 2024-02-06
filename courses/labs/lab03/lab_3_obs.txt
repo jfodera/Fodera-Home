@@ -2,7 +2,8 @@ Before submitting:
    upload my practice diagrams to lab3 folder
    Copy this whole text to the readme.md file in the root directory
    Create -> page under construction links
-   add ? if have time
+   add ? 
+   comments, uncomment before uploading to azure
    go through all links
 
 Plan: 
@@ -30,6 +31,12 @@ Are the # of files in my root good?
 
 
 Things I learned: 
+
+display: block; - allows you to set height and width for links
+
+cannot legally make button a link 
+
+Must make server relative calls
 
 %'s are based off of container within
 
@@ -60,5 +67,4 @@ Future Updates:
 
 make a better header
 Make abt section alignment dependant on the width 
-
-Add breadcrums 
+Make intro to itws website before lab directory 

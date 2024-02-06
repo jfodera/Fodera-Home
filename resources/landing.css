@@ -89,48 +89,50 @@ footer {
 h2{
    margin-top: 0;
    margin-bottom: 0;
-   float: center;
+   color: white;
+   font-size: 3em;
 }
+
 
 #abtText{
-   margin: 10px 0 0 0; 
+   color: white;
+   font-size: 1.5em;
 }
-
 
 #abt{
-   position: absolute;
-   left: 30%;
-   padding-left: 1px;
-   text-align: center;
-   width: 600px;
-   height: 206px; 
-   font-size: 1.2em;
+   width: 28.3%;
+   margin-left: 2.5%;
+   margin-right: 2.5%; 
 }
 
-#intro{
-   padding-top: 10px;
-   height: 250px
-}
+
 
 #gradPic{
-   margin-top: 15px;
-   margin-left: 10px; 
-   float: left; 
+   width: 28.3%;
+   margin-left: 2.5%;
+   margin-right: 2.5%; 
+   height: 423.77px;
    border: 3px solid #000;
 }
 
 
 
 #runPic{
-   margin-top: 15px;
-
-   margin-right: 25px; 
-   float: right;
+   width: 28.3%;
+   margin-left: 2.5%;
+   margin-right: 2.5%; 
+   height: 423.77px;
    border: 3px solid #000;
 }
 
 /*Navigation*/ 
 
+#topFlex{
+   padding-top: 80px;
+}
+#bottom{
+   padding-top: 130px;
+}
 .flex-container {
    display: flex;
    flex-direction: row;
@@ -138,7 +140,6 @@ h2{
    /* Perfectly center's the items */
    justify-content: center;
    align-items: center;
-   padding-top: 130px;
    text-align: center;
  }
 
