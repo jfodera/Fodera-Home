@@ -2,6 +2,8 @@ Before submitting:
    upload my practice diagrams to lab3 folder
    Copy this whole text to the readme.md file in the root directory
    Create -> page under construction links
+   add ? if have time
+   go through all links
 
 Plan: 
 
@@ -28,6 +30,8 @@ Are the # of files in my root good?
 
 
 Things I learned: 
+
+%'s are based off of container within
 
 Do widths in percentages to resize with windo 
 

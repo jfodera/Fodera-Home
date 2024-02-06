@@ -37,6 +37,7 @@ footer {
    text-align: center;
    padding: 45px;
    margin-bottom: -25px;
+   margin-left: -15px;
    background-color: rgba(150, 108, 108, 0.251);
    border-top: 10px; 
    border-top-color: aqua;

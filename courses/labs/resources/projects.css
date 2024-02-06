@@ -58,16 +58,127 @@ h1{
    font-style: italic;
 }
 
+
+/* Buttons */
+
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   /* Perfectly center's the items */
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+ }
+
+ #topRow{
+   padding-top: 100px;
+ }
+
+ #bottomRow{
+   padding-top: 150px;
+ }
+
+.butText{
+   width: 12%;
+   margin-left: 3%;
+   margin-right: 3%;
+   height: 175px;
+
+}
+
+h2{
+   margin: 0 0 0 0;
+   text-align: center;
+   height:25px;
+}
+
+/* Terminal emoji from: https://www.akashtrehan.com/printing-emojis-on-terminal/ */
+/* All images should be 75x75 */
+ #lab1{
+   height: 150px;
+   width: 100%;
+   background: url('terminal.png');
+   background-position:center;
+   background-repeat:no-repeat;     
+   color: black;
+   background-color: red; 
+ }
+
+ /* Breifcase Emoji from: https://iconduck.com/emojis/98019/briefcase */
+ #lab2{
+   height: 150px;
+   width: 100%;
+   background: url('breifcase.png');
+   background-position:center;
+   background-repeat:no-repeat;     
+   color: black;
+   background-color: red; 
+ }
+
+
+ #lab1:hover{
+   background-color: yellow;
+   color: white;
+ }
+ #lab2:hover{
+   background-color: yellow;
+   color: white;
+ }
+
+ .rest{
+   height: 150px;
+   width: 100%;
+   background-position:center;
+   background-repeat:no-repeat;     
+   color: black;
+   background-color: red; 
+ }
+
+ .rest:hover{
+   background-color: yellow;
+   color: white;
+ }
+
+ #finProj{
+   align-items: center;
+ 
+   width: 100%;
+   height: 400px; 
+   margin-top: 85px;
+ }
+
+ .fin{
+   height: 250px;
+   width: 25%;
+   margin-left: 37.5%; 
+   margin-right: 37.5%; 
+   background-position:center;
+   background-repeat:no-repeat;     
+   color: black;
+   background-color: red; 
+ }
+
+ .fin:hover{
+   background-color: yellow;
+   color: white;
+ }
+
+
+
+
 /*Footer*/ 
 
 footer {
    text-align: center;
-   padding: 45px;
+   margin-top: 45px;
    margin-bottom: -25px;
-   background-color: rgba(150, 108, 108, 0.251);
+   margin-left: -15px;
+   background-color: rgba(227, 242, 18, 0.877);
    border-top: 10px; 
    border-top-color: aqua;
-   color: white;
+   color: rgb(12, 151, 237);
  }
 
  .contact{
