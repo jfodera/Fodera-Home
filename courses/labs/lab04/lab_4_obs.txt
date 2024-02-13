@@ -1,0 +1,1 @@
+Both feeds can be identical, just want us to be able to use both atom and RSS 
