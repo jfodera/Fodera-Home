@@ -19,3 +19,30 @@ h1{
    margin-top: 0;  
    background: url(runner.gif);
 }
+
+/*breadcrums*/
+.bread{
+   text-align: center; 
+   margin: 0 0 0 0; 
+   text-decoration: underline;
+
+}
+.bread:link{
+   color: black; 
+}
+
+.bread:visited{
+   color: rgb(82, 8, 107); 
+}
+
+.bread:hover{
+   color: blue;
+}
+
+#centPBread{
+   margin: 0 0 0 0;
+   text-align: center;
+   font-size: 2.0em;
+   font-family: 'Crimson Text', serif;
+   font-style: italic;
+}
