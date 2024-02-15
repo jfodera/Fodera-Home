@@ -1,1 +1,20 @@
-Both feeds can be identical, just want us to be able to use both atom and RSS 
+
+Before submitting: 
+
+
+Plan: 
+
+make a lab 4 landing page with links to the 2 files
+
+
+Both feeds can be identical, just want us to be able to use both atom and RSS. 
+
+So
+
+
+Questions: 
+Why can't I define hover for a class
+
+
+
+Things I learned: 

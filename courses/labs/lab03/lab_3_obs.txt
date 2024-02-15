@@ -68,3 +68,5 @@ Future Updates:
 make a better header
 Make abt section alignment dependant on the width 
 Make intro to itws website before lab directory 
+make height of boxes dependant on screen size as well
+make landing page for all labs

@@ -1,0 +1,21 @@
+/*This css is used for the project landing page along with the induvidual landing pages to style the header. */
+
+
+h1{
+   font-family:  'Crimson Text', serif; 
+   font-size: 4.5em; 
+   margin: -15px 0 0 0; 
+   padding: 0 0 0 0;
+   text-align: center; 
+   
+}
+
+/* Image from Deviant Art: https://www.deviantart.com/smykoleg/art/Running-Test-My-First-Animated-GIF-608350295 */
+#top{
+   height: 30px; 
+   background-color: white;
+   border-color: black;
+   margin-left: -20px;
+   margin-top: 0;  
+   background: url(runner.gif);
+}
