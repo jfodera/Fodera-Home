@@ -1,0 +1,155 @@
+/*CSS specific to the lab4land.html page*/
+
+body {
+   width: 100%;
+   height: 100%; 
+   overflow: scroll;
+   background-image: url('purpback.jpeg'); 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover; 
+}
+
+/*breadcrums*/
+.bread:link{
+   color: #f89812; 
+}
+
+.bread:visited{
+   color: #ffcb1f; 
+}
+
+.bread:hover{
+   color: rgb(255, 255, 7);
+}
+
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   /* Perfectly center's the items */
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding-top: 40px;
+ }
+
+/*description*/
+
+#desc{
+   width: 65%;
+   height: 100%; 
+   margin-left: 1%;
+   margin-right: 1%; 
+   background-color: #ffcb1f;
+   border-radius: 20px;
+   text-align: center; 
+}
+
+h2{
+   font-family: "Protest Guerrilla", sans-serif;
+   font-weight: 400;
+   color:#9E01FB;
+   font-size: 2.5em;
+   margin-top: 10px;
+   margin-bottom: 15px;
+   width: 100%;
+}
+
+#abtText{
+   margin-top: 0; 
+   font-family: "Roboto Mono", sans-serif; 
+   font-weight: 400; 
+   font-size: 1.3em;
+   color: #5A01E3;
+   width: 95%; 
+   margin-left: 2.5%;
+}
+
+/*buttons*/ 
+
+.buttonHold{
+   width: 17.5%;
+   height: 290px;
+}
+h3{
+   font-family: "Protest Guerrilla", sans-serif;
+   font-weight: 400;
+   color:#ffcb1f;
+   font-size: 2.5em;
+   margin-top: 10px;
+   margin-bottom: 0;
+   width: 100%;
+   height: 20%
+}
+
+/*rss logo from: https://www.cleanpng.com/png-rss-web-feed-computer-icons-feed-1496601/ */
+.feeds{
+   display: block;
+   width: 100%;
+   height: 80%;
+}
+
+
+
+#rss{
+   background-image: url(rssLogo.png);
+   /*preserves aspect ratio*/
+   background-size: 100% 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#rss:hover{
+   background-image: url("rssLogoHover.png"); 
+}
+
+
+/*atom logo from: https://www.rssboard.org/news/213/atom-feed-format-born-20-years-ago 
+note logo is naturally cut off (best one I could find. */
+#atom{
+   background-image: url(atomLogo.png);
+   /*preserves aspect ratio*/
+   background-size: 75% 75%;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#atom:hover{
+   background-image: url("atomLogoHover.png"); 
+}
+
+
+footer {
+   position: fixed; 
+   bottom: 0;  
+   width: 100%;
+   text-align: center;
+   margin-right: -10px;
+   margin-left: -10px;
+   background-color: #ffcb1f;
+   border-top: 10px; 
+   color: #9E01FB;
+
+ }
+
+ .contact{
+   text-align: right; 
+   margin: 0 15px 0 0; 
+   font-style: italic;
+   font-size: 1.2em;
+
+ }
+
+ .updates{
+   margin: 0 0 0 0; 
+   font-size: 1.2em;
+ }
+
+ a{
+   color: blue
+ }
+
+ a:hover{
+   color: #9E01FB;
+ }

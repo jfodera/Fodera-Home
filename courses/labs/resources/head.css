@@ -27,17 +27,7 @@ h1{
    text-decoration: underline;
 
 }
-.bread:link{
-   color: black; 
-}
 
-.bread:visited{
-   color: rgb(82, 8, 107); 
-}
-
-.bread:hover{
-   color: blue;
-}
 
 #centPBread{
    margin: 0 0 0 0;

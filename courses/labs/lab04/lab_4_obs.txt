@@ -9,12 +9,19 @@ make a lab 4 landing page with links to the 2 files
 
 Both feeds can be identical, just want us to be able to use both atom and RSS. 
 
-So
+Note: RSS readers should be able to read atom just fine
 
 
 Questions: 
 Why can't I define hover for a class
 
+Why can't I make background image fill entire div?
+
+
+to do: 
+make description not go over header.   
 
 
 Things I learned: 
+
+Can't make body a relative height 
