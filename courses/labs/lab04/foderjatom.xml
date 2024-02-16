@@ -1,19 +1,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
    <title>Joe Fodera's Atom Feed</title>
-   <subtitle>A subtitle.</subtitle>
-   <link href="http://example.org/feed/" rel="self"/>
-   <link href="http://example.org/"/>
-   <id>urn:uuid:60a76c80-d399-11d9-b91C-0003939e0af6</id>
-   <updated>2003-12-13T18:30:02Z</updated>
+   <subtitle>This is the Atpm feed that I curated from different places around the web. These are some fairly recent items that I found interesting.</subtitle>
+   <link href="https://foderjrpi.eastus.cloudapp.azure.com/iit/courses/labs/labs04/foderjatom.xml" rel="self"/>
+   <link href="https://foderjrpi.eastus.cloudapp.azure.com/iit/courses/labs/labs04/lab4land.html"/>
+   <id>https://foderjrpi.eastus.cloudapp.azure.com/iit/courses/labs/labs04/lab4land.html</id>
+   <updated>2024-02-15T18:30:02Z</updated>
    <author>
-   <name>John Doe</name>
-   <email>johndoe@example.com</email>
+      <name>Joe Fodera</name>
+      <email>josephfodera25@gmail.com</email>
    </author>
+
    <entry>
-   <title>Atom-Powered Robots Run Amok</title>
-   <link href="http://example.org/2003/12/13/atom03"/>
-   <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
-   <updated>2003-12-13T18:30:02Z</updated>
-   <summary>Some text.</summary>
+      <id>https://music.apple.com/us/album/utopia/1699712635</id>
+      <title>UTOPIA - Travis Scott</title>
+      <category term="Hip-Hop/Rap" scheme="https://itunes.apple.com/us/genre/id18" label="Hip-Hop/Rap"/>
+      <category term="Music" scheme="https://itunes.apple.com/us/genre/id34" label="Music"/>
+      <link href="https://music.apple.com/us/album/utopia/1699712635" type="text/html" rel="alternate"/>
+      <summary>
+         Link to the Travis Scott album. 
+      </summary>
+      <updated>2024-02-16T01:40:01Z</updated>
+   </entry>   
+
+    <entry>
+      <title>
+      <![CDATA[ Knicks reportedly filing protest after refs admit mistake on foul call in loss to Rockets ]]>
+      </title>
+      <link href="https://www.foxsports.com/stories/nba/knicks-reportedly-filing-protest-after-refs-admit-mistake-on-foul-call-in-loss-to-rockets"/>
+      <id>https://www.foxsports.com/stories/nba/knicks-reportedly-filing-protest-after-refs-admit-mistake-on-foul-call-in-loss-to-rockets</id>
+      <summary>
+      <![CDATA[ Aaron Holiday makes decisive free throws after foul call on Jalen Brunson, but after review officials say it "should not have been called." ]]>
+      </summary>
+      <updated>2024-02-13T19:13:30Z</updated>
+   </entry>
+
+   <entry>
+      <title>
+      <![CDATA[ Steph Curry adds to pregame trick shot lore with 100-foot tunnel heave ]]>
+      </title>
+      <link href="https://www.foxsports.com/stories/nba/steph-curry-adds-to-pregame-trick-shot-lore-with-100-foot-tunnel-heave"/>
+      <id>https://www.foxsports.com/stories/nba/steph-curry-adds-to-pregame-trick-shot-lore-with-100-foot-tunnel-heave</id>
+      <summary>
+         <![CDATA[ Steph Curry made another jaw-dropping trick shot this week, sinking a 100-foot tunnel heave to add to his ever-growing list. ]]>
+      </summary>
+      <updated>2024-02-15T12:35:47Z</updated>
+   </entry>
+
+   <entry>
+      <title>Trio Collects Liberty League Major Awards</title>
+      <link href="https://rpiathletics.com/news/2023/11/29/mens-cross-country-trio-collects-liberty-league-major-awards.aspx"/>
+      <id>https://rpiathletics.com/news/2023/11/29/mens-cross-country-trio-collects-liberty-league-major-awards.aspx</id>
+      <summary>
+         <![CDATA[
+          The Rensselaer Polytechnic Institute (RPI) men's and women's cross country teams were well represented in the Liberty League's major awards this fall, as senior Cory Kennedy earned the Men's Runner of the Year, freshman Evan Lacey won the Men's Rookie of the Year, and freshman Julianne Bleskoski was named the Women's Co-Rookie of the Year.]]>
+      </summary>
+      <updated>2023-11-28T13:45:00Z</updated>
+
+   </entry>
+
+   <entry>
+      <title>Purdy, Bosa, Kittle and More Reflect on the 2023 Season and Super Bowl Run</title>
+      <summary>
+      Several San Francisco 49ers players shared their final thoughts on the 2023 season and the team&#x2019;s Super Bowl LVIII journey.
+      </summary>
+      <link href="https://www.49ers.com/news/purdy-bosa-kittle-reflect-on-the-2023-season-super-bowl-run"/>
+      <updated>2024-02-14T00:00:00Z</updated>
+      <id>https://www.49ers.com/news/purdy-bosa-kittle-reflect-on-the-2023-season-super-bowl-run</id>
    </entry>
 </feed>

@@ -17,6 +17,8 @@ Why can't I define hover for a class
 
 Why can't I make background image fill entire div?
 
+Missing atom:link with rel="self"? Validator RSS reccomendation 
+
 
 to do: 
 make description not go over header.   
@@ -25,3 +27,8 @@ make description not go over header.
 Things I learned: 
 
 Can't make body a relative height 
+Each atom entry should have a summary. 
+Don't need CDATA in RSS but it tells program that it's text not markup 
+
+future notes: 
+style RSS in the future 

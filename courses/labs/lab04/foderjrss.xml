@@ -1,18 +1,78 @@
 <rss version="2.0">
    <channel>
-   <title>RSS Title</title>
-   <description>This is an example of an RSS feed</description>
-   <link>http://www.example.com/</link>
-   <lastBuildDate>Tue, 12 Oct 2010 00:01:00 +0000</lastBuildDate>
-   <pubDate>Tue, 12 Oct 2010 00:01:00 +0000</pubDate>
+   <title>Joe Fodera's RSS Feed</title>
+   <description>This is the RSS feed that I curated from different places around the web. These are some fairly recent items that I found interesting. </description>
+   <link>https://foderjrpi.eastus.cloudapp.azure.com/iit/courses/labs/labs04/lab4land.html</link>
+   <lastBuildDate>Thu, 15 Feb 2024 00:01:00 -0500</lastBuildDate>
+   <pubDate>Thu, 15 Feb 2024 00:01:00 -0500</pubDate>
+
+
    <item>
-   <title>Example entry</title>
-   <description>
-   Here is some text containing an interesting description of the thing to be described.
-   </description>
-   <link>http://www.wikipedia.org/</link>
-   <guid>http://www.example.com/uniqueStringPerItem</guid>
-   <pubDate>Tue, 12 Oct 2010 00:45:00 +0000</pubDate>
+      <title>
+      <![CDATA[ Knicks reportedly filing protest after refs admit mistake on foul call in loss to Rockets ]]>
+      </title>
+      <link>https://www.foxsports.com/stories/nba/knicks-reportedly-filing-protest-after-refs-admit-mistake-on-foul-call-in-loss-to-rockets</link>
+      <guid>https://www.foxsports.com/stories/nba/knicks-reportedly-filing-protest-after-refs-admit-mistake-on-foul-call-in-loss-to-rockets</guid>
+      <category>nba</category>
+      <description>
+      <![CDATA[ Aaron Holiday makes decisive free throws after foul call on Jalen Brunson, but after review officials say it "should not have been called." ]]>
+      </description>
+      <pubDate>Tue, 13 Feb 2024 19:13:30 -0500</pubDate>
    </item>
-   </channel>
+
+   <item>
+      <title>
+      <![CDATA[ Steph Curry adds to pregame trick shot lore with 100-foot tunnel heave ]]>
+      </title>
+      <link>https://www.foxsports.com/stories/nba/steph-curry-adds-to-pregame-trick-shot-lore-with-100-foot-tunnel-heave</link>
+      <guid>https://www.foxsports.com/stories/nba/steph-curry-adds-to-pregame-trick-shot-lore-with-100-foot-tunnel-heave</guid>
+      <category>nba</category>
+      <description>
+         <![CDATA[ Steph Curry made another jaw-dropping trick shot this week, sinking a 100-foot tunnel heave to add to his ever-growing list. ]]>
+      </description>
+      <pubDate>Thu, 15 Feb 2024 12:35:47 -0500</pubDate>
+   </item>
+
+   <item>
+      <title>Trio Collects Liberty League Major Awards</title>
+      <link>https://rpiathletics.com/news/2023/11/29/mens-cross-country-trio-collects-liberty-league-major-awards.aspx</link>
+      <guid>https://rpiathletics.com/news/2023/11/29/mens-cross-country-trio-collects-liberty-league-major-awards.aspx</guid>
+      <category>
+         Men's Cross Country, Women's Cross Country
+      </category>
+      <description>
+         <![CDATA[
+         <img alt="Cory Kennedy" src="https://rpiathletics.com/common/controls/image_handler.aspx?thumb_prefix=rp_primary&image_path=/images/2023/11/11/i-4zwSLQW.jpg" />
+         <br /><br />TROY, N.Y. - The Rensselaer Polytechnic Institute (RPI) men's and women's cross country teams were well represented in the Liberty League's major awards this fall, as senior Cory Kennedy earned the Men's Runner of the Year, freshman Evan Lacey won the Men's Rookie of the Year, and freshman Julianne Bleskoski was named the Women's Co-Rookie of the Year.]]>
+      </description>
+      <enclosure url="https://rpiathletics.com/common/controls/image_handler.aspx?thumb_prefix=rp_primary&amp;image_path=/images/2023/11/11/i-4zwSLQW.jpg" length="1" type="image/jpg" />
+      <pubDate>
+         Wed, 29 Nov 2023 13:45:00 GMT
+      </pubDate>
+   </item>
+
+   <item>
+      <title>Purdy, Bosa, Kittle and More Reflect on the 2023 Season and Super Bowl Run</title>
+      <description>
+      Several San Francisco 49ers players shared their final thoughts on the 2023 season and the team&#x2019;s Super Bowl LVIII journey.
+      </description>
+      <link>https://www.49ers.com/news/purdy-bosa-kittle-reflect-on-the-2023-season-super-bowl-run</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">7a649de4-1fb7-4334-a58b-65a5ee100945</guid>
+      <source url="https://www.49ers.com/rss/news">News</source>
+      <enclosure url="https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/hmfu95fupslu8vzf4a7u.jpg" length="0" type="image/jpeg"></enclosure>
+   </item>
+
+   <item>
+      <title>UTOPIA - Travis Scott</title>
+      <category domain="https://music.apple.com/us/artist/travis-scott/549236696">Travis Scott</category>
+      <link>https://music.apple.com/us/album/utopia/1699712635</link>
+      <guid>https://music.apple.com/us/album/utopia/1699712635</guid>
+      <description>A link to the Album of the summer, Travis Scotts Utopia. Click to Listen now!</description>
+      <category>albums</category>
+      <category>Hip-Hop/Rap</category>
+      <category>Music</category>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+   </item>
+</channel>
 </rss>
