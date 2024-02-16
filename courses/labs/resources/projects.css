@@ -1,61 +1,27 @@
-/* Definitions for the body box model, whole thing */
-body {
-   width: 100%;
-   overflow: scroll;
-   background-image: url('blueBack.avif'); 
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover; 
-
-}
-
-h1{
-   font-family:  'Crimson Text', serif; 
-   font-size: 4.5em; 
-   margin: -15px 0 0 0; 
-   padding: 0 0 0 0;
-   text-align: center; 
-   
-}
-
-/* Image from Deviant Art: https://www.deviantart.com/smykoleg/art/Running-Test-My-First-Animated-GIF-608350295 */
-#top{
-   height: 30px; 
-   background-color: white;
-   border-color: black;
-   margin-left: -20px;
-   margin-top: 0;  
-   background: url(runner.gif);
-}
-
 /*Page Specific*/ 
 
-
-/*breadcrums*/
-.bread{
-   text-align: center; 
-   margin: 0 0 0 0; 
-   text-decoration: underline;
-
+/* Definitions for the body box model, whole thing */
+body {
+  width: 100%;
+  overflow: scroll;
+  background-image: url('blueBack.avif'); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
 }
+
+
+
 .bread:link{
-   color: black; 
+  color: black; 
 }
 
 .bread:visited{
-   color: rgb(82, 8, 107); 
+  color: rgb(82, 8, 107); 
 }
 
 .bread:hover{
-   color: blue;
-}
-
-#centPBread{
-   margin: 0 0 0 0;
-   text-align: center;
-   font-size: 2.0em;
-   font-family: 'Crimson Text', serif;
-   font-style: italic;
+  color: blue;
 }
 
 
@@ -69,7 +35,6 @@ h1{
    justify-content: center;
    align-items: center;
    text-align: center;
-
  }
 
  #topRow{
@@ -95,49 +60,83 @@ h2{
    color: yellow;
 }
 
+
+/* All internal images should be 75x75 */
+
+ .labs{
+  display: block;
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-bottom: 150px;
+}
+
+
 /* Terminal emoji from: https://www.akashtrehan.com/printing-emojis-on-terminal/ */
-/* All images should be 75x75 */
- #lab1{
-   display: block;
-   padding-left: 50%;
-   padding-right: 50%;
-   padding-bottom: 150px;
-   background: url('terminal.png');
-   background-position:center;
-   background-repeat:no-repeat;     
-   background-color: red; 
- }
+#lab1{
+  background: url('terminal.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color: red; 
+}
+#lab1:hover{
+  background-color: yellow;
+  color: white;
+}
+#lab1:hover{
+  background-color: yellow;
+  color: white;
+}
 
- #lab1:hover{
-   background-color: yellow;
-   color: white;
- }
- #lab2:hover{
-   background-color: yellow;
-   color: white;
- }
+/* Breifcase Emoji from: https://iconduck.com/emojis/98019/briefcase */
+#lab2{
+  background: url('breifcase.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color: red; 
+}
+
+#lab2:hover{
+  background-color: yellow;
+  color: white;
+}
+#lab2:hover{
+  background-color: yellow;
+  color: white;
+}
+
+/*web emoji from: https://www.vecteezy.com/png/14391995-transparent-website-icon-png*/
+#lab3{
+  background: url('webIcon.webp');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color: red; 
+}
+
+#lab3:hover{
+  background-color: yellow;
+  color: white;
+}
+#lab3:hover{
+  background-color: yellow;
+  color: white;
+}
 
 
- /* Breifcase Emoji from: https://iconduck.com/emojis/98019/briefcase */
- #lab2{
-   display: block;
-   padding-left: 50%;
-   padding-right: 50%;
-   padding-bottom: 150px;
-   background: url('breifcase.png');
-   background-position:center;
-   background-repeat:no-repeat;     
-   background-color: red; 
- }
+#lab4{
+  background: url('atom.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color: red; 
+}
 
- #lab2:hover{
-   background-color: yellow;
-   color: white;
- }
- #lab2:hover{
-   background-color: yellow;
-   color: white;
- }
+#lab4:hover{
+  background-color: yellow;
+  color: white;
+}
+#lab4:hover{
+  background-color: yellow;
+  color: white;
+}
 
 /* Questionmark png from: https://www.cleanpng.com/png-question-mark-computer-icons-exclamation-mark-emoj-7101876/download-png.html */
  .rest{
@@ -172,8 +171,6 @@ h2{
    color: black;
    background-color: red; 
  }
-
-
 
 
 
