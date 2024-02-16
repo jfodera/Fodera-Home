@@ -1,6 +1,9 @@
 
-Before submitting: 
+Working URL: http://foderjrpi.eastus.cloudapp.azure.com/iit/
 
+Summary: Was interesting to see the slight differences in syntax between Atom and RSS. Was also nice to get a deeper understanding of what a 
+XML microformat really is. Cool curating my own feed and excited to hopefully play with RSS and Atom more in the future. Also just had a fun 
+time styling my lab 4 landing. 
 
 Plan: 
 
