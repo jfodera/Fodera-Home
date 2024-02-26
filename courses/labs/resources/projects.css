@@ -121,7 +121,6 @@ h2{
   color: white;
 }
 
-
 #lab4{
   background: url('atom.png');
   background-position:center;
@@ -134,6 +133,23 @@ h2{
   color: white;
 }
 #lab4:hover{
+  background-color: yellow;
+  color: white;
+}
+
+/* JS logo from https://commons.wikimedia.org/wiki/File:JavaScript-logo.png */
+#lab5{
+  background: url('jsLogo.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color: red; 
+}
+
+#lab5:hover{
+  background-color: yellow;
+  color: white;
+}
+#lab5:hover{
   background-color: yellow;
   color: white;
 }
