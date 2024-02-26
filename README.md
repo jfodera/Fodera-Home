@@ -1,6 +1,56 @@
 
 Working URL: http://foderjrpi.eastus.cloudapp.azure.com/iit/
 
+Lab 5 notes: 
+Summary: This lab was probably my favorite as I really enjoyed bridging the gap from html to javascript. It definitley helped 
+that I had a bit of background in javascript and it was just cool to finally apply some things that I knew prior to this class. 
+The event Attributes were very interesting to me and when reading through some documentation, I was able to think of a lot of 
+use cases for them. I'm excited to hopefully further implement javascript into our group project.
+
+
+Plan: 
+
+if form is submitted sucessfully, alert user
+
+
+: on first load of the page, focus the first form element. (No points will be deducted for not doing this.)
+   this means make the cursor be in the first element box on the first load of the page. 
+
+
+
+Questions: 
+
+How do we actually acsess responses once we hit submit? 
+
+Is there a way to do exitArea function without using .value
+
+What is the point of #output?
+
+to do: 
+
+
+
+Things I learned: 
+
+textarea and input elements are two different Things
+   value in text area defines what is pre-loaded in box
+
+onsubmit attribute in a form
+
+reasoning only clears once for onlick is because inner html is not changed when user adds comments 
+
+onblur is called when element goes out of focus 
+
+displaying value takes precedence over inner html
+
+Always associate form labes with form input fields
+
+
+future notes:
+
+cite atom image
+
+
 Lab 4 notes: 
 Summary: Was interesting to see the slight differences in syntax between Atom and RSS. Was also nice to get a deeper understanding of what a 
 XML microformat really is. Cool curating my own feed and excited to hopefully play with RSS and Atom more in the future. Also just had a fun 

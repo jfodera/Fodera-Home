@@ -1,6 +1,4 @@
-/* Lab 5 CSS File 
-   Did you notice that CSS comments are the same as 
-   multi-line javascript comments? */
+/* Lab 5 CSS File  */
 
 body {
    font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +8,7 @@ body {
    margin: auto;
 }
 #output {
-   margin: 1em 0;
+   margin: 10em 0;
    color: black;
    background-color: #fee;
    padding: 1em;
@@ -19,6 +17,8 @@ body {
 fieldset {
    padding-top: 1em;
 }
+
+/* Each Box */
 .field {
    width: 120px;
    margin: 0 0.5em 0.5em 0;
@@ -26,6 +26,12 @@ fieldset {
    clear: left;
    text-align: right;
 }
+
+.focHis:focus{
+   background-color: #fee;
+}
+
+/* each val class */
 .value {
    margin: 0 0 0.5em 0;
 }
