@@ -22,6 +22,10 @@ ready only executes when entire dom is loaded, it's like the main
 
 supposed to define function in event handler argument
 
+<pre> tag stands for "preformatted text." It is used to display text exactly as it appears in the HTML code
+
+.slideToggle
+
 future notes:
 
 
