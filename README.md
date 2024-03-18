@@ -22,12 +22,12 @@ Questions:
 
 How do we actually acsess responses once we hit submit? 
 
-Is there a way to do exitArea function without using .value
-
-What is the point of #output?
 
 to do: 
 
+Add multiple error messages if missing form feilds √
+make sure when fields are empty button doesn't alert 'is' √ 
+make sure to not submit form when comments are default √
 
 
 Things I learned: 
@@ -45,6 +45,9 @@ displaying value takes precedence over inner html
 
 Always associate form labes with form input fields
 
+setFocus sets defaults when screen first loads
+
+Onsubmit functions must return true/false depending on if form was submitted succesfully
 
 future notes:
 

@@ -4,41 +4,76 @@
 /*Checks to make sure each value is in correct condition before submitting*/
 function validate(formObj) {
    //focus takes cursor to specified element and highlights box.
+   var alertMessage =""; 
+   var count = 0; 
+   var res = true; 
+
    if (formObj.firstName.value == "") {
-      alert("You must enter a first name");
+      if (count != 0){
+         alertMessage += "\n";
+      }
+      alertMessage += "You must enter a first name";
       formObj.firstName.focus();
-      return false;
+      count += 1; 
+      res = false;
    }
    if (formObj.lastName.value == "") {
-      alert("You must enter a last name");
+      if (count != 0){
+         alertMessage += "\n";
+      }
+      alertMessage += "You must enter a last name";
       formObj.lastName.focus();
-      return false;
+      count += 1; 
+      res = false;
    }
    if (formObj.title.value == "") {
-      alert("You must enter a title");
+      if (count != 0){
+         alertMessage += "\n";
+      }
+      alertMessage += "You must enter a title";
       formObj.title.focus();
-      return false;
+      count += 1; 
+      res = false;
    }
    if (formObj.org.value == "") {
-      alert("You must enter a orginization");
+      if (count != 0){
+         alertMessage += "\n";
+      }
+      alertMessage += "You must enter a orginization";
       formObj.org.focus();
-      return false;
+      count += 1; 
+      res = false;
    }
    if (formObj.pseudonym.value == "") {
-      alert("You must enter a nickname");
+      if (count != 0){
+         alertMessage += "\n";
+      }
+      alertMessage += "You must enter a nickname";
       formObj.pseudonym.focus();
-      return false;
+      count += 1; 
+      res = false;
    }
-   if (formObj.comments.value == "") {
-      alert("You must enter a comment");
+   if (formObj.comments.value == "" || formObj.comments.value == "Please enter your comments") {
+      if (count != 0){
+         alertMessage += "\n";
+      }
+      alertMessage += "You must enter a comment";
       formObj.comments.focus();
-      return false;
+      count += 1; 
+      res = false;
    }
+
+
 
    //if makes it here form submitted 
-
-   alert("Form Submitted Succesfully!")
-   return true;
+   if (res){
+      alert("Form Submitted Succesfully!");
+      return(true); 
+   }else{
+      alert(alertMessage); 
+      return(false); 
+   }
+   
 }
 
 /*Simply clears the text area specified*/
@@ -63,7 +98,11 @@ function showFLName(){
    var fname = document.getElementById("firstName"); 
    var lname = document.getElementById("lastName");
    var nickName = document.getElementById("pseudonym");
-   alert(fname.value + " " + lname.value + " is " + nickName.value);
+   if(fname.value != "" && lname.value != "" && nickName.value != ""){
+      alert(fname.value + " " + lname.value + " is " + nickName.value);
+   }else{
+      alert("Must Fill in 'First Name', 'Last Name', 'Nickname'"); 
+   }
 }
 
 /*Focuses on first element in form when called.*/
