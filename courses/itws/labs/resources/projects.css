@@ -121,6 +121,7 @@ h2{
   color: white;
 }
 
+/* Atom Logo from https://pngtree.com/freepng/atom-icon_8473596.html */
 #lab4{
   background: url('atom.png');
   background-position:center;
@@ -150,6 +151,23 @@ h2{
   color: white;
 }
 #lab5:hover{
+  background-color: yellow;
+  color: white;
+}
+
+/* Jquery Logo from https://freebiesupply.com/logos/jquery-logo/ */
+#lab6{
+  background: url('jquery-1-logo.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color: red; 
+}
+
+#lab6:hover{
+  background-color: yellow;
+  color: white;
+}
+#lab6:hover{
   background-color: yellow;
   color: white;
 }
