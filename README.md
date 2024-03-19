@@ -44,6 +44,7 @@ Must use selector of parent element (after $) when using .on method
 
 future notes:
 
+Use find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch command to delete DS store
 
 
 Lab 5 notes: 
