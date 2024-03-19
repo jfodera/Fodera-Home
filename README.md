@@ -1,5 +1,50 @@
 
-Working URL: http://foderjrpi.eastus.cloudapp.azure.com/iit/
+Homepage Link: http://foderjrpi.eastus.cloudapp.azure.com/iit/
+
+LabPage Link: 
+
+Github repo Link: https://github.com/RPI-ITWS/itws1100-foderj
+
+Lab 6 notes: 
+Summary: 
+Good lab and I got a lot more familliar with Jquery because of it. The most challenging part was probably figuring out a solution to problem 4b
+but it was satisfying to get. I also am glad I learned about the toggleClass method because I feel like that will be extremley helpful in the future. 
+
+Response to 4b: 
+When I click I my new list item, it turns red, it I click it again it turns black. It works this way because when implementing my solution 
+to problem 3 I used the '.on' method. This allows for dynamically added elements to be binded by events, (such as the new list items) to be able to
+have their class updated when they are clicked on. Its important to note that I had to specify my 'parent element' (the list itself) in the 
+selector in order for the function to work correctly.
+
+
+to do: 
+
+Before submit: 
+uncomment dom loaded alerts
+
+Things I learned: 
+
+ready only executes when entire dom is loaded, it's like the main
+
+supposed to define function in event handler argument
+
+<pre> tag stands for "preformatted text." It is used to display text exactly as it appears in the HTML code
+
+.slideToggle
+
+When writing inline, thats when you use the noconflict thign with '$'
+
+Fade out function number argument represents miliseconds
+
+Can change the cursor type in css
+
+Toggle class extremley helpful 
+
+Must use selector of parent element (after $) when using .on method
+
+future notes:
+
+
 
 Lab 5 notes: 
 Summary: This lab was probably my favorite as I really enjoyed bridging the gap from html to javascript. It definitley helped 

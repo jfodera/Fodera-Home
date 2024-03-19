@@ -24,7 +24,16 @@ body {
 h1:hover {
   cursor: pointer; 
 }
+
+li:hover{
+  cursor: pointer; 
+}
+
 .red {
   color: red;
   background-color: transparent;
+}
+
+em.myName{
+ font-size: 100%;
 }

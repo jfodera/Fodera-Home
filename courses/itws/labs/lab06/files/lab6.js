@@ -5,6 +5,7 @@
 // is fully loaded:
 $(document).ready(function () {
 
+   var counter = 5; 
    // alert("The DOM is now loaded and can be manipulated.");
    // alert("The instructions for this lab are in the lab6.js file.");
 
@@ -22,6 +23,10 @@ $(document).ready(function () {
    //change the text size to 110% of normal
    // (note that there is already a class defined for the area where your name should go)
 
+   $("h1").click(function () {
+      $("em.myName").html("Joseph Fodera"); 
+      $("em.myName").css({"font-variant" : "small-caps", "color" : "red", "font-size":"110%"});
+   });
 
 
 
@@ -29,20 +34,45 @@ $(document).ready(function () {
    //   vanish over a 4/10 sec duration when a user clicks "Hide text";
    //   make it appear with a 2 second duration when a user clicks "Show text":
 
+   $("#hideText").click(function() {
+      $("p.lore").fadeOut(400);
+   });
+
+   $("#showText").click(function() {
+      $("p.lore").fadeIn(2000);
+   });
 
    // Problem 3 (10 pts): When a normal list item is clicked, make it turn red using addClass.
-   //            When a red list item is clicked change it back (you need to look up the appropriate jQuery method to do this)
+   // When a red list item is clicked change it back (you need to look up the appropriate jQuery method to do this)
    // (Note that there already is a css style named ".red" in lab6.css)
+
+
+
+
+   $("#labList").on("click","li", function() {
+      $(this).toggleClass("red"); 
+   });
 
 
    // Problem 4 (10 pts): When a user clicks on the "Add a list item" button, add a new list item to the end of the list.
    // Problem 4b (10 pts) - what happens when you click on the new li?  Why? (Explain in your readme file)
    //   ie if it works as after #3 above, why? if it doesn't, why not?  How would you fix it?
+   //must use .on for dynamic elemnts to be able to be binded by events 
+
+   $("#AddListItem").click(function() {
+      counter += 1; 
+      $("#labList").append("<li class='added'>List item " + counter +"</li>");
+   });   
+ 
 
 
 
    // Problem 5 (10 pts): lookup another jquery method and use this code on the "Toggle Text"
    // link to show/hide the text:
+
+   $("#toggleText").click(function(){
+      $("p.lore").toggle();
+   });   
 
    // Problems: 60 pts
    // Validity: 10 pts
