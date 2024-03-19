@@ -46,6 +46,7 @@ future notes:
 
 Use find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch command to delete DS store
 
+Fix footer covering issue when minimizing
 
 Lab 5 notes: 
 Summary: This lab was probably my favorite as I really enjoyed bridging the gap from html to javascript. It definitley helped 
