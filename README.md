@@ -1,7 +1,7 @@
 
 Homepage Link: https://foderjrpi.eastus.cloudapp.azure.com/iit/
 
-Most Recent LabPage Link:  
+Most Recent LabPage Link:  https://foderjrpi.eastus.cloudapp.azure.com/iit/courses/itws/labs/lab08/lab8.html
 
 Github repo Link: https://github.com/RPI-ITWS/itws1100-foderj
 
