@@ -172,6 +172,40 @@ h2{
   color: white;
 }
 
+/* Class logo from https://www.cleanpng.com/png-image-classified-information-logo-text-portable-ne-6855671/#google_vignette */
+#lab7{
+  background: url('class.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color: red; 
+}
+
+#lab7:hover{
+  background-color: yellow;
+  color: white;
+}
+#lab7:hover{
+  background-color: yellow;
+  color: white;
+}
+
+/* AJAX logo from: https://en.m.wikipedia.org/wiki/File:Ajax_logo.svg */
+#lab8{
+  background: url('Ajax.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color: red; 
+}
+
+#lab8:hover{
+  background-color: yellow;
+  color: white;
+}
+#lab8:hover{
+  background-color: yellow;
+  color: white;
+}
+
 /* Questionmark png from: https://www.cleanpng.com/png-question-mark-computer-icons-exclamation-mark-emoj-7101876/download-png.html */
  .rest{
    display: block;

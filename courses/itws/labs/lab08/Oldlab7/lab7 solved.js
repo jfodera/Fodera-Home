@@ -121,6 +121,7 @@ $(document).ready(function() {
           	  "<li><a href='" + this.link + "' target='_blank'>" +
            	 "<img title='"+ this.title + "'src='" + this.media.m + "' alt='"+ this.title + "' />" + "</a></li>");
       	});
+			//this doesn't fully work
       	output += "</ul>";
     	}, 
 		
