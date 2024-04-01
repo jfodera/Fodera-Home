@@ -65,6 +65,7 @@
   Lab 7 is due by midnight Oct 29, 2012.
   
 */
+//called when document loads
 $(document).ready(function() {
   
   // Excercise 1: Flickr feed
@@ -72,40 +73,58 @@ $(document).ready(function() {
 	
 	if (option==1) {
 	
+	//For this option, each li of the page is added conce3nated and then the entire list is added to the html
+	//Notice the , after each argument techniques
   	$.ajax({
    	 	type: "GET",
+			// Can be web-based or a local file 
    	 	url: "flickrfeed.js",
    	 	dataType: "json",
+			//Runs when request succeeds 
+			//response data is the data returned from the server (the raw flikrfeed file)
+			//status is the status of the ajax request
    	 	success: function(responseData, status){
+			//from here below we are working in the response data file
+			//creating string
    	  	var output = "<ul>";  
+			//.items can only be used because the JSON file has a structure names items, along with the rest of those attribute names
+			//i is the index which increments and iten is the container variable the function is iterating through
     	 	$.each(responseData.items, function(i, item) {
+				//concatenating valid javaScript
        		output += '<li><a href="' + item.link + '" target="_blank">';
-        	output += '<img title="' + item.title + '" src="' + item.media.m;
-        	output += '" alt="'; 
-        	output += item.title + '" />';
-        	output += '</a></li>';
+				output += '<img title="' + item.title + '" src="' + item.media.m;
+				output += '" alt="'; 
+				output += item.title + '" />';
+				output += '</a></li>';
       	});
       	output += "</ul>";
+			//jquery selector gets the element with the ID and writes to output to it
       	$('#flickrOutput').html(output);
-    	}, error: function(msg) {
+    	}
+		//when error occurs in ajax request it is returned as a msg that has various attributes
+		, error: function(msg) {
       				// there was a problem
       	alert("There was a problem: " + msg.status + " " + msg.statusText);
     	}
   	});
-	} else {  // OR - option 2
+	} else {  // OR - option 2, each li is added to HTML when concenated (faster than option 1)
   	$.ajax({
     	type: "GET",
     	url: "flickrfeed.js",
     	dataType: "json",
    		success: function(responseData, status){
     	  var output = "<ul>"; 
+		  //no selector definition because already inresponseData so not neccesary
       	$.each(responseData.items, function() {
+				//this refers to the current object being processed by the iteration
         	  $("#flickrOutput").append(
           	  "<li><a href='" + this.link + "' target='_blank'>" +
            	 "<img title='"+ this.title + "'src='" + this.media.m + "' alt='"+ this.title + "' />" + "</a></li>");
       	});
       	output += "</ul>";
-    	}, error: function(msg) {
+    	}, 
+		
+		error: function(msg) {
       	// there was a problem
       	alert("There was a problem: " + msg.status + " " + msg.statusText);
     	}
@@ -114,7 +133,7 @@ $(document).ready(function() {
   
   // Excercise 2: NYT Bits Blog feed
   // your code goes here.
-	
+	//ajax SML version
     if (option==1) {	 
 	  	$.ajax({
 	    	type: "GET",
@@ -122,20 +141,24 @@ $(document).ready(function() {
     		dataType: "xml",
     		success: function(responseData, status){
     			var output = "<ul>";  
+				//since response data is valid xml, can use jquery xml methods 
       		$(responseData).find("item").each(function() {
+					//same kind of method
        			output += '<li><a href="' + $(this).find("link").text() + '" target="_blank">';
         		output += $(this).find("title").text();
         		output += '</a></li>';
+				//to mess with fonts can change CSS through here or manually
         		output += "<div id='date'>" + $(this).find("pubDate").text() + "</div><br />";
       		});
       		output += "</ul>";
+				//concatenates all then adds to end
       		$('#nytOutput').html(output);
     		}, error: function(msg) {
       		// there was a problem
       		alert("There was a problem: " + msg.status + " " + msg.statusText);
     		}
   		});  
-		} else { // OR - option 2
+		} else { // OR - option 2, adds each li as created
  			$.ajax({
    	 		type: "GET",
     		url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
@@ -147,6 +170,7 @@ $(document).ready(function() {
       	  	$("#nytOutput").append(
          	 	"<li><a href='" +$(this).find("link").text() + "' target='_blank'>" +
          	 	$(this).find("title").text()+"</a><br />" +
+					//font tag no longer in use
          	 	"<font class='smaller'>" + $(this).find("pubDate").text() + "</font><br /></li>" );
       		});
     			output += "</ul><br /><br >";
@@ -158,7 +182,7 @@ $(document).ready(function() {
 		};
   
   
-  // Flickr jsonp example using getJSON: 
+  // Flickr jsonp example using getJSON: Just using a different jQuery method 
  /*
   $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?", outputPhotos);
   function outputPhotos(photoData) {
