@@ -1,0 +1,18 @@
+Lab 8 notes: 
+
+to do: 
+
+Plan: 
+make it like landing page from lab 4 with header and all of that, when cllick on RSS it appears using "show" method from prior lab
+be sure to have scroll on
+same thing when clicking on atom, 
+Rss on top of atom
+
+Current: 
+   making generals of lab9 landing
+
+Before submit:
+
+Questions: 
+
+Things I learned: 
