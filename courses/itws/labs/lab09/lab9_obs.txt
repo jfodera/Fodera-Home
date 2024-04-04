@@ -16,3 +16,10 @@ Before submit:
 Questions: 
 
 Things I learned: 
+     border: 1px solid black;
+     href="#" -> default placeholder 
+
+      Centers every div
+      width: 30%;
+      margin: auto;
+      text-align: center;
