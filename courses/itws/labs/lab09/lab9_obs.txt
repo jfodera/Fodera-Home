@@ -27,6 +27,7 @@ Before submit:
 Questions: 
    why do I not have to use on method to fade in and out? 
       could it be because the elements were added through ajax function which has different implications then adding them through jquery functions from lab6 
+      How do I get the footer to work better without being fixed and not having spacer? 
 
 Things I learned: 
      border: 1px solid black;
