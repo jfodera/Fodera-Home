@@ -1,9 +1,48 @@
-
 Homepage Link: https://foderjrpi.eastus.cloudapp.azure.com/iit/
 
-Most Recent LabPage Link:  https://foderjrpi.eastus.cloudapp.azure.com/iit/courses/itws/labs/lab08/lab8.html
+Most Recent LabPage Link:  https://foderjrpi.eastus.cloudapp.azure.com/iit/courses/itws/labs/lab09/lab9.html
 
 Github repo Link: https://github.com/RPI-ITWS/itws1100-foderj
+
+Lab 9 notes: 
+
+Summary: 
+   I really liked this lab as I put together a lot of different peices. Below I listed everything I learned and a couple of questions I had. I used some jquery methods 
+   that I got from lab 6 to make the text appear and disappear on click while also combining that with ajax hide statements I used in lab 8 so that was pretty cool. I was
+   just curious as to why I didn't have to use the 'on' method to show/hide my feed objects but I guessed it was because we were using ajax to load them in and not 
+   "dynamically creating them using jQuery methods. Probably my best page (functionality wise) to date and nice to see improvement. 
+
+Plan: 
+make it like landing page from lab 4 with header and all of that, when cllick on RSS it appears using "show" method from prior lab
+be sure to have scroll on
+   add Atom Styled after the link button
+   same thing when clicking on atom, 
+
+
+Current: 
+   making RSS box 
+
+Before submit:
+
+Questions: 
+   why do I not have to use on method to fade in and out? 
+      could it be because the elements were added through ajax function which has different implications then adding them through jquery functions from lab6 
+
+Things I learned: 
+     border: 1px solid black;
+     href="#" -> default placeholder 
+      Centers every div:
+         width: 30%;
+         margin: auto;
+         text-align: center;
+      target='_blank' -> open in new window
+      must include js defining script before javascript file in header
+      footerPadding Strategy
+
+Future Notes: 
+   Fix lab6 Footer
+
+________________________________________________________________________________________________________________________________________________
 
 Lab 8 notes: 
 Summary: This lab got me very comfortable with AJAX so that was defintley good, I enjoyed going through the different jQuery effects availible in order to make my 

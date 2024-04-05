@@ -4,7 +4,7 @@ body {
    width: 100%;
    height: 100%; 
    overflow: scroll;
-   background-image: url('purpback.jpeg'); 
+   background-color: #9E01FB;
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover; 

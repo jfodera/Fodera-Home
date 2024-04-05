@@ -1,0 +1,173 @@
+/*CSS specific to the lab9.html page*/
+
+body {
+   width: 100%;
+   height: 100%;
+   overflow: scroll;
+   background-color: red;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover; 
+}
+
+
+/*Breadcrumps specific:*/
+.bread:link{
+   color: #f89812; 
+}
+
+.bread{
+   color: white;
+}
+
+.bread:hover{
+   color: rgb(193, 189, 183);
+}
+
+
+/*overall*/
+#outCont{
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.date{
+   display: inline-block; 
+   margin-left: 30px;
+   font-weight: 300;
+   font-size: 0.7em;
+   color: #ff0d00;
+   text-decoration: none;
+}
+
+.summary{
+   margin-top: 10px ;
+   color: red;
+   font-family: "Lexend";
+   font-weight: 400 ;
+}
+
+
+/*Atom*/
+.atomTitle{
+   padding-top: 20px;
+   display: block;
+   color: white;
+   font-family: "Lexend";
+   font-size: 1.7em;
+   width: 30%;
+   margin: auto;
+   text-align: center;
+}
+
+.aborder{
+   display: block;
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+   margin-top: 30px;
+   border: 3px solid black; 
+   background-color: white;
+}
+
+#atomTxt{
+   /*dont want bullets*/
+   color: red;
+}
+
+#atomTxt a{
+   display: inline-block;
+   color: red;
+   text-decoration: none;
+   font-family: "Lexend";
+   font-weight: 900;
+   font-size: 1.4em;
+}
+
+#atomTxt a:hover{
+   text-decoration: underline;
+}
+
+
+
+/*RSS*/
+.rssTitle{
+   padding-top: 20px;
+   display: block;
+   color: white;
+   font-family: "Lexend";
+   font-size: 1.7em;
+   width: 30%;
+   margin: auto;
+   text-align: center;
+}
+
+.rborder{
+   display: block;
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+   margin-top: 30px;
+   border: 3px solid black; 
+   background-color: white;
+}
+
+#rssTxt{
+   /*dont want bullets*/
+   color: red;
+}
+
+#rssTxt a{
+   display: inline-block;
+   color: red;
+   text-decoration: none;
+   font-family: "Lexend";
+   font-weight: 900;
+   font-size: 1.4em;
+}
+
+#rssTxt a:hover{
+   text-decoration: underline;
+}
+
+/* Footer */
+#footerPadding{
+   display: block;
+   height: 135px;
+}
+
+footer {
+   position: fixed; 
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   margin-left: -10px;
+   margin-bottom: -25px;
+   background-color: white;
+   border-top: 10px; 
+   color: red;
+ }
+
+ .contact{
+   text-align: right; 
+   margin: 0 15px 0 0; 
+   font-style: italic;
+   font-size: 1.2em;
+
+ }
+
+ .updates{
+   margin: 0 0 0 0; 
+   font-size: 1.2em;
+ }
+
+ a{
+   color: red
+ }
+
+ a:hover{
+   color: blue;
+ }

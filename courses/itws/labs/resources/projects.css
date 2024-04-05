@@ -206,6 +206,23 @@ h2{
   color: white;
 }
 
+/*image is combonation of ajax logo and atom logo from before */
+#lab9{
+  background: url('Ajax+atom.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color: red; 
+}
+
+#lab9:hover{
+  background-color: yellow;
+  color: white;
+}
+#lab9:hover{
+  background-color: yellow;
+  color: white;
+}
+
 /* Questionmark png from: https://www.cleanpng.com/png-question-mark-computer-icons-exclamation-mark-emoj-7101876/download-png.html */
  .rest{
    display: block;

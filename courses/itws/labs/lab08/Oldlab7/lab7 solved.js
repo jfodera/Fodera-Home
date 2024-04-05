@@ -131,6 +131,8 @@ $(document).ready(function() {
     	}
   	});	
 	};
+
+	
   
   // Excercise 2: NYT Bits Blog feed
   // your code goes here.

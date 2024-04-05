@@ -1,0 +1,16 @@
+You are to use the RSS & Atom feeds that you created in lab 4 and create a new lab 10 page which will serve the data in a presentable format.
+
+Copy your main branch into Development √
+Make sure you are working in you rdevelopment branch √
+Follwing the AJAX example provided in class, and 'old lab 7' √
+Create a new la9.html and lab9.js file in your lab9 folder (or similar, according to your IA) √
+When opening lab9.html, the page should read your RSS and ATOM files from lab 9 and put them on the page √
+
+Rubric:
+33% - outputting the RSS feed
+33% - outputting the ATOM feed 
+33% - making the style fancier and 'fitting' it to your site
+
+You may put both outputs on the same page - or not, your choice. √
+When done, promote your development environment to production and deploy.  Failure to do this will resut in no credit √
+Dont forget your READme - failure to include one will result in no credit √
