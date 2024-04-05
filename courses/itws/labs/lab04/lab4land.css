@@ -119,4 +119,37 @@ note logo is naturally cut off (best one I could find. */
    background-image: url("atomLogoHover.png"); 
 }
 
+/* Footer */
+footer {
+   position: fixed; 
+   bottom: 0;  
+   width: 100%;
+   text-align: center;
+   margin-right: -10px;
+   margin-left: -10px;
+   background-color: #ffcb1f;
+   border-top: 10px; 
+   color: #9E01FB;
 
+ }
+
+ .contact{
+   text-align: right; 
+   margin: 0 15px 0 0; 
+   font-style: italic;
+   font-size: 1.2em;
+
+ }
+
+ .updates{
+   margin: 0 0 0 0; 
+   font-size: 1.2em;
+ }
+
+ a{
+   color: blue
+ }
+
+ a:hover{
+   color: #9E01FB;
+ }
