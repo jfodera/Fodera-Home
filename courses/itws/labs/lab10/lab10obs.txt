@@ -1,0 +1,18 @@
+Homepage Link: https://foderjrpi.eastus.cloudapp.azure.com/iit/
+
+Most Recent LabPage Link:  https://foderjrpi.eastus.cloudapp.azure.com/iit/courses/itws/labs/lab09/lab9.html
+
+Github repo Link: https://github.com/RPI-ITWS/itws1100-foderj
+
+
+Plan: 
+
+Current: 
+
+
+Questions: 
+
+
+
+Things I learned: 
+   SQl file is what phpMy admin reads

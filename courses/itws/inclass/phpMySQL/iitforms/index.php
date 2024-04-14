@@ -61,6 +61,7 @@
       if ($focusId == '') $focusId = '#dob';
     }
   
+    //php if else statement with html within
     if ($errors != '') { ?>
       <div id="messages">
         <h4>Please correct the following errors:</h4>
@@ -69,6 +70,7 @@
         </ul>
         <script type="text/javascript">
           $(document).ready(function() {
+            //puts focus on the bad fields 
             $("<?php echo $focusId ?>").focus();
           });
         </script>
