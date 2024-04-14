@@ -16,3 +16,11 @@ VALUES (1, "Elizabeth", "1998"),
       "2001"
    ),
    (5, "Up in the Air", "2009");
+
+--Create Actors Program
+CREATE TABLE `actors` (
+   `actorid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+   `first_name` varchar(60) NOT NULL,
+   `last_name` char(40) NOT NULL,
+   PRIMARY KEY (`actorid`)
+);
