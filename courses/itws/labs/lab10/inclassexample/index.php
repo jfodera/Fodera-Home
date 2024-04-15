@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head>lolz
 <?php
 include('includes/functions.inc.php'); // functions
 ?>
