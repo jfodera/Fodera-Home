@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html>
+  <head>lolz
+=======
+>>>>>>> lab10
 <?php
 include('includes/init.inc.php'); // include the DOCTYPE and opening tags
 include('includes/functions.inc.php'); // functions
@@ -154,7 +160,7 @@ if ($havePost) {
             echo "\n" . '<tr class="odd" id="actor-' . $record['actorid'] . '"><td>';
          }
          echo htmlspecialchars($record['last_name']) . ', ';
-         echo htmlspecialchars($record['first_names']);
+         echo htmlspecialchars($record['first_name']);
          echo '</td><td>';
          echo htmlspecialchars($record['dob']);
          echo '</td><td>';
