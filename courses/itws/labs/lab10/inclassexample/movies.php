@@ -10,7 +10,7 @@
       
 <?php include('includes/menubody.inc.php'); ?>
 
-
+<!-- Getting Dabase Connection -->
 <?php
 // We'll need a database connection both for retrieving records and for
 // inserting them.  Let's get it up front and use it for both processes
@@ -29,12 +29,108 @@ if ($db->connect_error) {
    $dbOk = true;
 }
 
+
+/* Form PHP */ 
 // Now let's process our form:
 // Have we posted?
 $havePost = isset($_POST["save"]);
+
+// Let's do some basic validation
+$errors = '';
+if ($havePost) {
+
+   // Get the output and clean it for output on-screen.
+   // First, let's get the output one param at a time.
+   // Could also output escape with htmlentities()
+   $title = htmlspecialchars(trim($_POST["title"]));
+   $year = htmlspecialchars(trim($_POST["year"]));
+   
+
+
+  //  checks if year is good
+  $yearOK = is_numeric($year) && intval($year) > 0 && intval($year) <= 2024; 
+
+
+   $focusId = ''; // trap the first field that needs updating, better would be to save errors in an array
+
+   if ($title == '') {
+      $errors .= '<li>Title may not be blank</li>';
+      if ($focusId == '') $focusId = '#title';
+   }
+   if ($year == '') {
+      $errors .= '<li>Year may not be blank</li>';
+      if ($focusId == '') $focusId = '#year';
+   }
+   if (!$dobOk) {
+      $errors .= '<li>Enter a valid year (before 2024)</li>';
+      if ($focusId == '') $focusId = '#year';
+   }
+
+   if ($errors != '') {
+      echo '<div class="messages"><h4>Please correct the following errors:</h4><ul>';
+      echo $errors;
+      echo '</ul></div>';
+      echo '<script type="text/javascript">';
+      echo '  $(document).ready(function() {';
+      echo '    $("' . $focusId . '").focus();';
+      echo '  });';
+      echo '</script>';
+   } else {
+      if ($dbOk) {
+         // Let's trim the input for inserting into mysql
+         // Note that aside from trimming, we'll do no further escaping because we
+         // use prepared statements to put these values in the database.
+         $titleForDb = trim($_POST["title"]);
+         $yearForDb = trim($_POST["year"]);
+
+         // Setup a prepared statement. Alternately, we could write an insert statement - but
+         // *only* if we escape our data using addslashes() or (better) mysqli_real_escape_string().
+         $insQuery = "insert into movies (`title`,`year`) values(?,?)";
+         $statement = $db->prepare($insQuery);
+         // bind our variables to the question marks
+         $statement->bind_param("ss", $titleForDb, $yearForDb);
+         // make it so:
+         $statement->execute();
+
+         // give the user some feedback
+         echo '<div class="messages"><h4>Success: ' . $statement->affected_rows . ' movie added to database.</h4>';
+         echo $title . 'made in: ' . $year . '</div>';
+
+         // close the prepared statement obj
+         $statement->close();
+      }
+   }
+}
 ?>
 
-// Note that I kept ID's the same as to be able to use the same styling without having to make duplicates copies of the css files 
+
+
+
+
+<!-- Building Form -->
+<h3>Add Movie</h3>
+<form id="addForm" name="addForm" action="movies.php" method="post" onsubmit="return validateMov(this);">
+   <fieldset>
+      <div class="formData">
+
+         <label class="field" for="title">Movie Title:</label>
+         <div class="value"><input type="text" size="60" value="<?php if ($havePost && $errors != '') {
+                                                                     echo $title;
+                                                                  } ?>" name="title" id="title" /></div>
+
+         <label class="field" for="year">Year Made:</label>
+         <div class="value"><input type="text" size="60" value="<?php if ($havePost && $errors != '') {
+                                                                     echo $year;
+                                                                  } ?>" name="year" id="year" /></div>
+         <input type="submit" value="save" id="save" name="save" />
+      </div>
+   </fieldset>
+</form>
+
+
+
+
+<!-- // Note that I kept ID's the same as to be able to use the same styling without having to make duplicates copies of the css files  -->
 <h3>Movies</h3>
 <table id="actorTable">
    <?php

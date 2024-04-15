@@ -21,6 +21,24 @@ function validate(formObj) {
   return true;
 }
 
+/*New -> for form validation */
+function validateMov(formObj) {
+  
+  if (formObj.title.value == "") {
+    alert("Please enter a title");
+    formObj.title.focus();
+    return false;
+  }
+  
+  if (formObj.year.value == "") {
+    alert("Please enter a year");
+    formObj.year.focus();
+    return false;
+  }
+
+  return true;
+}
+
 
 $(document).ready(function() {
   
