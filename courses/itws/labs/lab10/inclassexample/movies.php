@@ -49,8 +49,8 @@ if ($havePost) {
 
 
   //  checks if year is good
-  $yearOK = true;
-
+  
+  
 
    $focusId = ''; // trap the first field that needs updating, better would be to save errors in an array
 
@@ -63,11 +63,14 @@ if ($havePost) {
       if ($focusId == '') $focusId = '#year';
    }
 
-   echo $yearOK;
-   if (!$yearOk) {
+
+
+   if (!(is_numeric($year) && (int)$year > 0 && (int)$year < 2024)) {
       $errors .= '<li>Enter a valid year (before 2024)</li>';
       if ($focusId == '') $focusId = '#year';
    }
+
+
 
    if ($errors != '') {
       echo '<div class="messages"><h4>Please correct the following errors:</h4><ul>';
