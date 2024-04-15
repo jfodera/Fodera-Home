@@ -45,6 +45,7 @@ if ($havePost) {
    $title = htmlspecialchars(trim($_POST["title"]));
    $year = htmlspecialchars(trim($_POST["year"]));
    
+   echo $year; 
 
 
   //  checks if year is good
