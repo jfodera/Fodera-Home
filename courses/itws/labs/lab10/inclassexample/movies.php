@@ -61,7 +61,7 @@ if ($havePost) {
       $errors .= '<li>Year may not be blank</li>';
       if ($focusId == '') $focusId = '#year';
    }
-   if (!$dobOk) {
+   if (!$yearOk) {
       $errors .= '<li>Enter a valid year (before 2024)</li>';
       if ($focusId == '') $focusId = '#year';
    }
