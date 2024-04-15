@@ -63,7 +63,7 @@ if ($havePost) {
 
 
 
-   if (!(is_numeric($year) && (int)$year > 0 && (int)$year < 2024)) {
+   if (!(is_numeric($year) && (int)$year > 0 && (int)$year <= 2024)) {
       $errors .= '<li>Enter a valid year (before 2024)</li>';
       if ($focusId == '') $focusId = '#year';
    }
