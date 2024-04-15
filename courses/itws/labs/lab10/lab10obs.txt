@@ -7,6 +7,7 @@ Github repo Link: https://github.com/RPI-ITWS/itws1100-foderj
 
 Plan: 
    Be sure to link it to labs Homepage and change links above
+   be sure to re-do actors csv and image 
 
 Current: 
    on step 2

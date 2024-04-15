@@ -26,7 +26,6 @@ CREATE TABLE `actors` (
    PRIMARY KEY (`actorid`)
 );
 
-
 INSERT INTO actors
 VALUES (1, 'Bill ', 'Murray', '1950-09-21'),
 (2, 'Grant ', 'Gustin', '1990-01-14'),
@@ -34,3 +33,23 @@ VALUES (1, 'Bill ', 'Murray', '1950-09-21'),
 (4, 'Steve', 'Carrel', '1962-08-16'),
 (5, 'Samuel', 'Jackson', '1948-12-21'),
 (6, 'Cary', 'Grant', '1904-01-18');
+
+
+
+-- Movie Actor Table
+
+CREATE TABLE `movie_actors` (
+   `itemid` int(10) unsigned NOT NULL AUTO_INCREMENT, 
+   `movieid` int(10) NOT NULL, 
+   `actorid` int(10) NOT NULL, 
+   PRIMARY KEY ( `itemid`)
+);
+
+
+INSERT INTO movie_actors
+VALUES (1, 9, 4), 
+(2, 6, 1), 
+(3, 7, 1), 
+(4, 10, 3), 
+(5, 8, 5), 
+(6, 11, 7)
