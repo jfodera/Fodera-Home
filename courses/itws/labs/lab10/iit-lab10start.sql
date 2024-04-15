@@ -25,3 +25,12 @@ CREATE TABLE `actors` (
    `dob` DATE NOT NULL,
    PRIMARY KEY (`actorid`)
 );
+
+
+INSERT INTO actors
+VALUES (1, 'Bill ', 'Murray', '1950-09-21'),
+(2, 'Grant ', 'Gustin', '1990-01-14'),
+(3, 'Eddie', 'Murphy', '1961-01-03'),
+(4, 'Steve', 'Carrel', '1962-08-16'),
+(5, 'Samuel', 'Jackson', '1948-12-21'),
+(6, 'Cary', 'Grant', '1904-01-18');
