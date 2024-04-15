@@ -6,6 +6,7 @@ Github repo Link: https://github.com/RPI-ITWS/itws1100-foderj
 
 
 Plan: 
+   Be sure to link it to labs Homepage and change links above
 
 Current: 
    on step 2
