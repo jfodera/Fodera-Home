@@ -13,4 +13,7 @@ include('includes/head.inc.php');
 
 <?php include('includes/menubody.inc.php'); ?>
 
-heya
+
+<?php include('includes/foot.inc.php');
+// footer info and closing tags
+?>
