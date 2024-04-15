@@ -32,9 +32,6 @@ if ($db->connect_error) {
 // Now let's process our form:
 // Have we posted?
 $havePost = isset($_POST["save"]);
-
-<?php include('includes/foot.inc.php'); 
-  // footer info and closing tags
 ?>
 
 // Note that I kept ID's the same as to be able to use the same styling without having to make duplicates copies of the css files 
@@ -76,3 +73,7 @@ $havePost = isset($_POST["save"]);
 
    ?>
 </table>
+
+<?php include('includes/foot.inc.php'); 
+  // footer info and closing tags
+?>
