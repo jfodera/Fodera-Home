@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
 <?php
+include('includes/init.inc.php'); // include the DOCTYPE and opening tags
 include('includes/functions.inc.php'); // functions
 ?>
 <title>PHP &amp; MySQL - ITWS</title>
@@ -24,7 +22,7 @@ $dbOk = false;
 
 /* Create a new database connection object, passing in the host, username,
      password, and database to use. The "@" suppresses errors. */
-@$db = new mysqli('localhost', 'root', 'root', 'iitF23');
+@$db = new mysqli('localhost', 'phpmyadmin', 'Fodphpftw2', 'iit');
 
 if ($db->connect_error) {
    echo '<div class="messages">Could not connect to the database. Error: ';
