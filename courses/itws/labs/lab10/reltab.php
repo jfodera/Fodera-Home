@@ -46,15 +46,24 @@ if ($db->connect_error) {
       echo '<tr><th>Movie:</th><th>Actor name:</th><th></th></tr>';
       for ($i = 0; $i < $numRecords; $i++) {
          $record = $result->fetch_assoc();
+
+         $actquery = 'select last_name, first_name from actors where actorid = ' . $record['actorid']; 
+         $actRes = $db->query($actquery);
+         $actRec = $actRes->fetch_assoc(); 
+         
+         $movquery = 'select title from movies where movieid = ' . $record['movieid']; 
+         $movRes = $db->query($movquery);
+         $movRec = $movRes->fetch_assoc(); 
+
          if ($i % 2 == 0) {
-            echo "\n" . '<tr id="actor-' . $record['actorid'] . '"><td>';
+            echo "\n" . '<tr id="rel-' . $record['itemid'] . '"><td>';
          } else {
-            echo "\n" . '<tr class="odd" id="actor-' . $record['actorid'] . '"><td>';
+            echo "\n" . '<tr class="odd" id="rel-' . $record['itemid'] . '"><td>';
          }
-         echo htmlspecialchars($record['last_name']) . ', ';
-         echo htmlspecialchars($record['first_name']);
+         echo htmlspecialchars($movRec['title']);
          echo '</td><td>';
-         echo htmlspecialchars($record['dob']);
+         echo htmlspecialchars($actRec['last_name']) . ', ';
+         echo htmlspecialchars($actRec['first_name']);
          echo '</td><td>';
          echo '<img src="resources/delete.png" class="deleteActor" width="16" height="16" alt="delete actor"/>';
          echo '</td></tr>';
