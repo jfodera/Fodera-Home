@@ -45,8 +45,6 @@ if ($havePost) {
    $title = htmlspecialchars(trim($_POST["title"]));
    $year = htmlspecialchars(trim($_POST["year"]));
    
-   echo is_numeric($year); 
-
 
   //  checks if year is good
   
