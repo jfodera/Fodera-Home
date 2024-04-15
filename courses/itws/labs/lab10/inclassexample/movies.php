@@ -49,7 +49,7 @@ if ($havePost) {
 
 
   //  checks if year is good
-  $yearOK = false;
+  $yearOK = true;
 
 
    $focusId = ''; // trap the first field that needs updating, better would be to save errors in an array
