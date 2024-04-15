@@ -34,7 +34,7 @@ if ($db->connect_error) {
 ?>
 
 
-<h3>Movie Actor Rels</h3>
+<h3>Movie Actor Relationships</h3>
 <table id="actorTable">
    <?php
    if ($dbOk) {
@@ -64,9 +64,6 @@ if ($db->connect_error) {
          echo '</td><td>';
          echo htmlspecialchars($actRec['last_name']) . ', ';
          echo htmlspecialchars($actRec['first_name']);
-         echo '</td><td>';
-         echo '<img src="resources/delete.png" class="deleteActor" width="16" height="16" alt="delete actor"/>';
-         echo '</td></tr>';
          // Uncomment the following three lines to see the underlying
          // associative array for each record.
          // echo '<tr><td colspan="3" style="white-space: pre;">';
