@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html>
-  <head>lolz
-=======
->>>>>>> lab10
 <?php
 include('includes/init.inc.php'); // include the DOCTYPE and opening tags
 include('includes/functions.inc.php'); // functions
@@ -99,7 +93,7 @@ if ($havePost) {
 
          // Setup a prepared statement. Alternately, we could write an insert statement - but
          // *only* if we escape our data using addslashes() or (better) mysqli_real_escape_string().
-         $insQuery = "insert into actors (`last_name`,`first_names`,`dob`) values(?,?,?)";
+         $insQuery = "insert into actors (`last_name`,`first_name`,`dob`) values(?,?,?)";
          $statement = $db->prepare($insQuery);
          // bind our variables to the question marks
          $statement->bind_param("sss", $lastNameForDb, $firstNamesForDb, $dobForDb);
