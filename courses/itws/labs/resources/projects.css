@@ -82,10 +82,7 @@ h2{
   background-color: yellow;
   color: white;
 }
-#lab1:hover{
-  background-color: yellow;
-  color: white;
-}
+
 
 /* Breifcase Emoji from: https://iconduck.com/emojis/98019/briefcase */
 #lab2{
@@ -99,10 +96,7 @@ h2{
   background-color: yellow;
   color: white;
 }
-#lab2:hover{
-  background-color: yellow;
-  color: white;
-}
+
 
 /*web emoji from: https://www.vecteezy.com/png/14391995-transparent-website-icon-png*/
 #lab3{
@@ -116,10 +110,7 @@ h2{
   background-color: yellow;
   color: white;
 }
-#lab3:hover{
-  background-color: yellow;
-  color: white;
-}
+
 
 /* Atom Logo from https://pngtree.com/freepng/atom-icon_8473596.html */
 #lab4{
@@ -133,10 +124,7 @@ h2{
   background-color: yellow;
   color: white;
 }
-#lab4:hover{
-  background-color: yellow;
-  color: white;
-}
+
 
 /* JS logo from https://commons.wikimedia.org/wiki/File:JavaScript-logo.png */
 #lab5{
@@ -150,10 +138,7 @@ h2{
   background-color: yellow;
   color: white;
 }
-#lab5:hover{
-  background-color: yellow;
-  color: white;
-}
+
 
 /* Jquery Logo from https://freebiesupply.com/logos/jquery-logo/ */
 #lab6{
@@ -167,10 +152,7 @@ h2{
   background-color: yellow;
   color: white;
 }
-#lab6:hover{
-  background-color: yellow;
-  color: white;
-}
+
 
 /* Class logo from https://www.cleanpng.com/png-image-classified-information-logo-text-portable-ne-6855671/#google_vignette */
 #lab7{
@@ -184,10 +166,7 @@ h2{
   background-color: yellow;
   color: white;
 }
-#lab7:hover{
-  background-color: yellow;
-  color: white;
-}
+
 
 /* AJAX logo from: https://en.m.wikipedia.org/wiki/File:Ajax_logo.svg */
 #lab8{
@@ -201,10 +180,7 @@ h2{
   background-color: yellow;
   color: white;
 }
-#lab8:hover{
-  background-color: yellow;
-  color: white;
-}
+
 
 /*image is combonation of ajax logo and atom logo from before */
 #lab9{
@@ -218,10 +194,21 @@ h2{
   background-color: yellow;
   color: white;
 }
-#lab9:hover{
+
+
+/*image is from https://en.m.wikipedia.org/wiki/File:Webysther_20160423_-_Elephpant.svg*/
+#lab10{
+  background: url('phplog.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color: red; 
+}
+
+#lab10:hover{
   background-color: yellow;
   color: white;
 }
+
 
 /* Questionmark png from: https://www.cleanpng.com/png-question-mark-computer-icons-exclamation-mark-emoj-7101876/download-png.html */
  .rest{
@@ -250,13 +237,17 @@ h2{
    padding-right: 12.5%; 
    margin-left: 37.5%;
    margin-right: 37.5%;
-   background: url('ques.png');
+   background: url('cehLogo-2.png');
    background-position: center;
    background-repeat:no-repeat;     
    color: black;
    background-color: red; 
  }
 
+ .fin:hover{
+  background-color: yellow;
+  color: white;
+}
 
 
 /*Footer*/ 

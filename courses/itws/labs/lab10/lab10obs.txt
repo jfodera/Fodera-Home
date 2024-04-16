@@ -1,9 +1,14 @@
 Homepage Link: https://foderjrpi.eastus.cloudapp.azure.com/iit/
 
-Most Recent LabPage Link:  https://foderjrpi.eastus.cloudapp.azure.com/iit/courses/itws/labs/lab09/lab9.html
+Most Recent LabPage Link:  https://foderjrpi.eastus.cloudapp.azure.com/iit/courses/itws/labs/lab10/inclassexample/index.php
 
 Github repo Link: https://github.com/RPI-ITWS/itws1100-foderj
 
+
+Summary: 
+   Very different lab than the ones prior but I learned a lot and I think will be very useful for the future. Glad I now know what php
+   and mySQL are and how easy it is to make databases, implementent relationship tables and things like that. Didn't run into a lot of issues 
+   here as the in-class material helped me to get a good grasp of the concepts that we were working with
 
 Plan: 
    Be sure to link it to labs Homepage and change links above
@@ -11,11 +16,6 @@ Plan:
 
 Current: 
    on step 2
-
-
-Questions: 
-
-
 
 Things I learned: 
    SQl file is what phpMy admin reads
