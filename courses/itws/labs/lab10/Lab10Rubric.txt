@@ -1,4 +1,4 @@
-Lab 9 - SQL
+   Lab 9 - SQL
 
 
 Q2: /2 "characters" table created
