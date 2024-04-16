@@ -10,6 +10,8 @@ include('includes/head.inc.php');
 // include global css, javascript, end the head and open the body
 ?>
 
+<h1>PHP &amp; MySQL</h1>
+
 
 <?php include('includes/menubody.inc.php'); ?>
 
