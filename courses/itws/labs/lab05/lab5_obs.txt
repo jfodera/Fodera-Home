@@ -1,0 +1,51 @@
+Lab 5 notes: 
+Summary: This lab was probably my favorite as I really enjoyed bridging the gap from html to javascript. It definitley helped 
+that I had a bit of background in javascript and it was just cool to finally apply some things that I knew prior to this class. 
+The event Attributes were very interesting to me and when reading through some documentation, I was able to think of a lot of 
+use cases for them. I'm excited to hopefully further implement javascript into our group project.
+
+
+Plan: 
+
+if form is submitted sucessfully, alert user
+
+
+: on first load of the page, focus the first form element. (No points will be deducted for not doing this.)
+   this means make the cursor be in the first element box on the first load of the page. 
+
+
+
+Questions: 
+
+How do we actually acsess responses once we hit submit? 
+
+
+to do: 
+
+Add multiple error messages if missing form feilds √
+make sure when fields are empty button doesn't alert 'is' √ 
+make sure to not submit form when comments are default √
+
+
+Things I learned: 
+
+textarea and input elements are two different Things
+   value in text area defines what is pre-loaded in box
+
+onsubmit attribute in a form
+
+reasoning only clears once for onlick is because inner html is not changed when user adds comments 
+
+onblur is called when element goes out of focus 
+
+displaying value takes precedence over inner html
+
+Always associate form labes with form input fields
+
+setFocus sets defaults when screen first loads
+
+Onsubmit functions must return true/false depending on if form was submitted succesfully
+
+future notes:
+
+cite atom image

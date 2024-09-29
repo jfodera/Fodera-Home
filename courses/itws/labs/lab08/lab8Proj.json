@@ -1,0 +1,178 @@
+{
+   "headInfo": [
+      {
+         "rel": "stylesheet",
+         "href": "../resources/head.css"
+      },
+      {
+         "rel": "stylesheet",
+         "href": "../resources/projects.css"
+      },
+      {
+         "rel": "preconnect",
+         "href": "https://fonts.googleapis.com"
+      },
+      {
+         "rel": "preconnect",
+         "href": "https://fonts.gstatic.com"
+      },
+      {
+         "rel": "stylesheet",
+         "href": "https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      }
+   ],
+   "header": [
+      {
+         "HdivID": "staticHeader",
+         "h1In": "Joseph Fodera", 
+         "pID": "centPBread", 
+         "aClass": "bread", 
+         "aL1" : "../../../index.html",
+         "a1In" : "Home Page ",
+         "arrow" : " -> ",
+         "aL2": "projects.html", 
+         "a2In" : "ITWS Labs Directory", 
+         "hrID": "top"
+      }
+   ], 
+   "buttons":[
+      {
+         "type" : "flex", 
+         "class": "flex-container", 
+         "id" : "topRow"
+      },  
+      {
+         "type" : "button",
+         "divClass": "butText", 
+         "hIn": "Lab 1- Setup", 
+         "aClass": "labs", 
+         "aID": "lab1", 
+         "aHref" : "lab01"
+      }, 
+      {
+         "type" : "button",
+         "divClass": "butText", 
+         "hIn": "Lab 2- Resume", 
+         "aClass": "labs", 
+         "aID": "lab2", 
+         "aHref" : "lab02/foderj-JosephFodera-resume.html"
+      },
+      {
+         "type" : "button",
+         "divClass": "butText", 
+         "hIn": "Lab 3- Website", 
+         "aClass": "labs", 
+         "aID": "lab3", 
+         "aHref" : "../../../index.html"
+      },
+      {
+         "type" : "button",
+         "divClass": "butText", 
+         "hIn": "Lab 4-RSS/Atom", 
+         "aClass": "labs", 
+         "aID": "lab4", 
+         "aHref" : "lab04/lab4land.html"
+      },
+      {
+         "type" : "button",
+         "divClass": "butText", 
+         "hIn": "Lab 5- JS", 
+         "aClass": "labs", 
+         "aID": "lab5", 
+         "aHref" : "lab05/lab5.html"
+      },
+      {
+         "type" : "end"
+      },  
+      {
+         "type" : "flex", 
+         "class": "flex-container", 
+         "id" : "bottomRow"
+      },  
+      {
+         "type" : "button",
+         "divClass": "butText", 
+         "hIn": "Lab 6- jQuery", 
+         "aClass": "labs", 
+         "aID": "lab6", 
+         "aHref" : "lab06/lab6landing.html"
+      },
+      {
+         "type" : "button",
+         "divClass": "butText", 
+         "hIn": "Lab 7- Mockup", 
+         "aClass": "labs", 
+         "aID": "lab7", 
+         "aHref" : ""
+      },
+      {
+         "type" : "button",
+         "divClass": "butText", 
+         "hIn": "Lab 8- AJAX", 
+         "aClass": "labs", 
+         "aID": "lab8", 
+         "aHref" : "lab08/lab8.html"
+      },
+      {
+         "type" : "rest",
+         "divClass": "butText", 
+         "hIn": "Lab 9", 
+         "aClass": "rest"
+      },
+      {
+         "type" : "rest",
+         "divClass": "butText", 
+         "hIn": "Lab 10", 
+         "aClass": "rest"
+      }, 
+      {
+         "type" : "end"
+      },  
+      {
+         "type" : "finProj", 
+         "inh2": "FINAL PROJECT", 
+         "aClass": "fin"
+      }
+   ], 
+   "footer":[
+      {
+         "type": "foot"
+      },
+      {
+         "type": "noLink", 
+         "class": "updates", 
+         "inner": "Page made by Joseph Fodera"
+      },
+      {
+         "type": "noLink", 
+         "class": "updates", 
+         "inner": "Last updated 4/1/2024"
+      },
+      {
+         "type": "noLink", 
+         "class": "contact", 
+         "inner": "Contact Information:"
+      },
+      {
+         "type": "Link", 
+         "class": "contact",
+         "ahref": "mailto:josephfodera25@gmail.com",  
+         "inner": "josephfodera25@gmail.com" 
+      },
+      {
+         "type": "Link", 
+         "class": "contact",
+         "ahref": "tel:5189484156",  
+         "inner": "(518)-948-4156" 
+      },
+      {
+         "type": "Link", 
+         "class": "contact",
+         "ahref": "https://www.google.com/maps/place/Rensselaer+Polytechnic+Institute/@42.7306254,-73.6854104,16z/data=!4m10!1m2!2m1!1srpi!3m6!1s0x89de0f9eebfa097d:0xa5592b13db1f5302!8m2!3d42.7297628!4d-73.6788884!15sCgNycGlaBSIDcnBpkgEScHJpdmF0ZV91bml2ZXJzaXR5mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJqTFVsdU9XMUJSUkFC4AEA!16zL20vMDFiazF5?entry=ttu",  
+         "inner": "110 8th St, Troy, NY 12180" 
+      },
+      {
+         "type": "end"
+      }
+   ]
+}
