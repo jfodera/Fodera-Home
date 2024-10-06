@@ -11,6 +11,7 @@ function buildMenu() {
 	// we are on the page that matches the URL
 	$menuOutput = '<ul id="menu">';
 	foreach ($menu as $key => $value) {
+		//$_Server, returns the name of the path of the file path currrently executing  
 		if($_SERVER['PHP_SELF'] == "$key.php") {
 			$selected = ' class="selected"';
 		} else {
