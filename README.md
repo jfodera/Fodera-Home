@@ -1,8 +1,7 @@
-Homepage Link: https://foderjrpi.eastus.cloudapp.azure.com/iit/
+Homepage Link: https://foderj.eastus.cloudapp.azure.com/fodera-home/
 
-Most Recent LabPage Link:  https://foderjrpi.eastus.cloudapp.azure.com/iit/courses/itws/labs/lab10/inclassexample/index.php
 
-Github repo Link: https://github.com/RPI-ITWS/itws1100-foderj
+Github repo Link: https://github.com/jfodera/Fodera-Home
 
 Lab 10 Notes
 
