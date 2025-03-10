@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+
 /* Lab 6 JavaScript File  */
 
 // this is the block that allows code to execute only after the DOM
