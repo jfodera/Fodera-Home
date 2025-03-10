@@ -43,13 +43,13 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" width="1000" height="600" data-pixel-art=""></canvas>
-		<script src="Build/PerfAsp.loader.js"></script>
+		<script src="Build/web.loader.js"></script>
 		<script>
 			var canvas = document.querySelector("#unity-canvas");
 			var config = {
-				dataUrl: "Build/PerfAsp.data",
-				frameworkUrl: "Build/PerfAsp.framework.js",
-				codeUrl: "Build/PerfAsp.wasm",
+				dataUrl: "Build/web.data",
+				frameworkUrl: "Build/web.framework.js",
+				codeUrl: "Build/web.wasm",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "Joseph Fodera",
 				productName: "SwingShot",
